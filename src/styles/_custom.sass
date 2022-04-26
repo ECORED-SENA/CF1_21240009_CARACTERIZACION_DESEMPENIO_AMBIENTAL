@@ -6,6 +6,61 @@
   @media screen and (max-width: 1000px)
     border-radius: 0px
     
-
 .izq
   margin-left: -12px
+
+.fondo-slyder
+  background-image: url('../assets/curso/tema1/fondo_slyder.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  padding: 1.5rem
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50p
+  height: 50px
+  background-color: #FED166
+  border-radius: 50%
+  background-image: url(../assets/curso/tema1/bi.svg)
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: 1px solid #ffffff
+  border-top-color: rgb(255, 255, 255)
+  border-right-color: rgb(255, 255, 255)
+  border-bottom-color: rgb(255, 255, 255)
+  border-left-color: rgb(255, 255, 255)
+  top: 90%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+.slyder-a__tipo-a .slyder-a__btn--atrs 
+  transform: translateY(-50%) rotate(180deg)
+  left: 15px
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  transform: translateY(-50%) rotate(1deg)
+  right: 15px
+.slyder-a__bullets__item--active 
+  background-color: #25E0AC
+  border-color: #727997
+  opacity: 1
+.modal-a__content 
+  position: fixed
+  top: 50%
+  left: 50%
+  background-color: #ffffff
+  width: 90%
+  max-width: 1300px
+  max-height: 100vh
+  overflow-y: auto
+  z-index: 110001
+  border-radius: 20px
+  transform: translate(-50%, -50%) scale(0)
+  transition: transform 0.3s ease-in-out
+
+.aling-1
+  text-align: left  !important
+  margin-top: 6rem
+  margin-left: 3rem
+  white-space: 10px
