@@ -3,28 +3,25 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
-      .titulo-principal__numero
-        span
-          i.fas.fa-info
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
+      .titulo-principal__numero.text-white
+        span i      
       h1 Introducción
-    
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
+    p.mb-4 Apreciado aprendiz, el SENA le da la bienvenida a esta experiencia de aprendizaje diseñada desde sus lineamientos de enseñanza y aprendizaje. Para iniciar, se sugiere observar el siguiente video para entender el qué, para qué y cómo de este momento de formación. Bienvenido.
+    <br><br>
+    .row.justify-content-center
+      .col-10
+        figure.mb-5(data-aos="flip-up")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+    br    
+    .row.justify-content-center.BG01.mb-5.p-5(data-aos="fade-right")
+      .col-11
+        p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en #[strong servicios de estética ornamental, cosmética facial y corporal], de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de 
+          span.etiqueta #[strong bioseguridad aplicada a la cosmética ornamental, facial y corporal.]
 
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
-
+   
 </template>
 
 <script>

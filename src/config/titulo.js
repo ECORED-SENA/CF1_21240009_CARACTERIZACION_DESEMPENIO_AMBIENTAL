@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'CF1- Caracterización del desempeño ambiental de la organización'
