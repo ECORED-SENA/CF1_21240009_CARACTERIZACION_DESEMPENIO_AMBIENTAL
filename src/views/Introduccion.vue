@@ -7,21 +7,19 @@
       .titulo-principal__numero.text-white
         span i      
       h1 Introducción
+    
+    .row.col-12.col-md-12.BG12.justify.content-center.align-items-center.mb-4
+      .col-md-4.izq
+        img(src='@/assets/curso/img1.png' alt='AvatarTop')
+      .col-md-8
+        p.p-3.text-white La globalización de la economía a nivel mundial ha producido cambios en todos los sistemas industriales, lo que necesariamente ha llevado a definir estándares de calidad que permitan definir indicadores de calidad a nivel mundial, ofreciendo servicios o productos en igualdad de condiciones por cada una de las empresas. Por lo anterior, cada una de estas ha debido diseñar una estrategia de mejora continua que defina un nivel de desempeño ambiental de alto nivel como organización, con el fin de demostrar que cumple con las pautas de la Norma ISO 14001 del 2015. Por lo anterior, se invita a ver el siguiente video introductorio:
 
-    p.mb-4 Apreciado aprendiz, el SENA le da la bienvenida a esta experiencia de aprendizaje diseñada desde sus lineamientos de enseñanza y aprendizaje. Para iniciar, se sugiere observar el siguiente video para entender el qué, para qué y cómo de este momento de formación. Bienvenido.
-    <br><br>
     .row.justify-content-center
-      .col-10
+      .col-md-11
         figure.mb-5(data-aos="flip-up")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
-    br    
-    .row.justify-content-center.BG01.mb-5.p-5(data-aos="fade-right")
-      .col-11
-        p.mb-0 Para la elaboración de este componente, se abordaron varios autores conocidos en #[strong servicios de estética ornamental, cosmética facial y corporal], de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de 
-          span.etiqueta #[strong bioseguridad aplicada a la cosmética ornamental, facial y corporal.]
-
-   
+            iframe(width="942" height="530" src="https://www.youtube.com/embed/5vI3zcaDlZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+    
 </template>
 
 <script>
