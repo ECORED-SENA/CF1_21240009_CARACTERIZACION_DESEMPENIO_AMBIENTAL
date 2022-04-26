@@ -19,11 +19,11 @@
       .d-none.d-lg-block.col-lg-6.banner-principal__img
         .contenedor-imagenes
           img.banner-img1(:src="globalData.imagenBannerPrincipal")
-          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante01.svg")
+          .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante01.png")
           .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotante02.svg")
           .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante03.svg") 
           .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante04.svg") 
-          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/flotante05.svg") 
+          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/flotante05.png") 
           .imagen_flotante.imagen_flotante_6: img(src="@/assets/curso/flotante06.svg")                 
           
 </template>
@@ -44,6 +44,7 @@ export default {
 <style lang="sass">
 
 .banner-principal__row
+  border-radius: 25px
   background-size: cover
   background-position: center
 .banner-principal .degrade
@@ -131,42 +132,42 @@ export default {
   &_1
     animation: float1 12s ease-in-out infinite
     position: absolute
-    top: 20%
-    left: 40%
-    width: 110px
+    top: 75%
+    left: -20%
+    width: 70px
   &_2
     animation: float1 10s ease-in-out infinite
     position: absolute
-    top: 58%
-    left: 10%
-    width: 100px
+    top: 95%
+    left: -25%
+    width: 250px
   &_3
     animation: float1 5s ease-in-out infinite
     position: absolute
-    top: 56%
-    left: 73%
-    width: 100px
+    top: 58%
+    left: 7%
+    width: 150px
 
   &_4
     animation: float1 5s ease-in-out infinite
     position: absolute
-    top: 40%
-    right: 20%
+    top: 20%
+    right: 195%
     width: 24px
 
   &_5
     animation: float2 5s ease-in-out infinite
     position: absolute
-    top: 30%
-    right: 30%
-    width: 25px
+    top: 4%
+    right: 182%
+    width: 85px
 
   &_6
     animation: float2 5s ease-in-out infinite
     position: absolute
-    top: 55%
-    right: 26%
-    width: 43px
+    top: 85%
+    right: 193%
+    width: 53px
 
 
 @keyframes float1
