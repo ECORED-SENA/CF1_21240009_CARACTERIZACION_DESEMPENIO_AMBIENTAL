@@ -10,7 +10,7 @@
 
     .row
       .col-md-7.mb-4(data-aos="fade-right")
-        .cajon.color-primario.p-4.mb-4 
+        .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
           p.mb-0 Toda organización, empresa o proyecto tiene ciertos componentes, los cuales en la medida que interactúan entre ellos le dan validez a los objetivos que se plantean inicialmente, ya que son elementos transformadores que procesan recursos o insumos y hacen parte de la cadena de producción para entregar un producto final que se adapte a las necesidades del cliente.  
         p Para dar claridad, en el siguiente recurso de aprendizaje se presentan los componentes de un sistema, por lo que se invita a revisar y a hacer búsquedas en internet en páginas de alta calidad académica sobre el tema para profundizar sobre el desempeño ambiental de una organización, a partir de lo que se presenta a continuación:  
       .col-md-4.mb-4(data-aos="fade-left")  
@@ -70,9 +70,32 @@
       h2 1.1 Matriz DOFA
 
     p.mb-4 La matriz DOFA es una herramienta de gran utilidad para toda organización, ya que permite el entendimiento de los elementos que constituyen una empresa y las relaciones internas y externas que existen.
-    span Este análisis es utilizado para observar desde el exterior, es decir, como si fuera un observador neutral y no tuviera participación en la misma. Por lo anterior, se invita a revisar el siguiente recurso de aprendizaje, donde encontrará información clave sobre lo que significa la palabra DOFA y cómo se aplica al desempeño de una organización:
+    p.mb-5 Este análisis es utilizado para observar desde el exterior, es decir, como si fuera un observador neutral y no tuviera participación en la misma. Por lo anterior, se invita a revisar el siguiente recurso de aprendizaje, donde encontrará información clave sobre lo que significa la palabra DOFA y cómo se aplica al desempeño de una organización:
 
+    ImagenInfografica.color-acento-botones
+      template(v-slot:imagen)
+        figure.col-md-4.mb-5.center
+          img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
+      .tarjeta.bg-amarillo-claro.p-4(x="35.7%" y="30%" numero="+")
+        p <b>Fortalezas</b>  Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización. 
 
+      .tarjeta.bg-amarillo-claro.p-4(x="64.5%" y="29.8%" numero="+")
+        p  <b>Debilidades</b>  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo. 
+
+      .tarjeta.bg-amarillo-claro.p-4(x="35.7%" y="71.8%" numero="+")
+        p <b>Oportunidades</b>  Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación. 
+
+      .tarjeta.bg-amarillo-claro.p-4(x="64.5%" y="71.8%" numero="+")
+        p <b>Amenazas</b>  En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
+
+    .row
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema1/img2.svg', alt='AvatarTop')
+
+      .col-md-8
+        .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
+          p.mb-0 La manera más recomendada para hacer este análisis es por proceso, identificando en cada uno de ellos sus debilidades, oportunidades, fortalezas y amenazas, para posteriormente realizar un análisis global de la organización teniendo en cuenta lo obtenido en cada uno de los procesos del sistema productivo.
     
 
 </template>
