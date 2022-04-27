@@ -72,7 +72,7 @@
     p.mb-4 La matriz DOFA es una herramienta de gran utilidad para toda organización, ya que permite el entendimiento de los elementos que constituyen una empresa y las relaciones internas y externas que existen.
     p.mb-5 Este análisis es utilizado para observar desde el exterior, es decir, como si fuera un observador neutral y no tuviera participación en la misma. Por lo anterior, se invita a revisar el siguiente recurso de aprendizaje, donde encontrará información clave sobre lo que significa la palabra DOFA y cómo se aplica al desempeño de una organización:
 
-    ImagenInfografica.color-acento-botones
+    ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure.col-md-4.mb-5.center
           img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
@@ -96,7 +96,151 @@
       .col-md-8
         .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
           p.mb-0 La manera más recomendada para hacer este análisis es por proceso, identificando en cada uno de ellos sus debilidades, oportunidades, fortalezas y amenazas, para posteriormente realizar un análisis global de la organización teniendo en cuenta lo obtenido en cada uno de los procesos del sistema productivo.
-    
+    separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Estructura organizacional
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .row.justify-content-center
+          .col-lg-2.col-1
+            img.celular(src="@/assets/curso/tema1/icon1.svg")
+          .cajon.color-acento-contenido(style='background-color: #B1DBEA').col-lg-10.col-11.mb-3
+            p.m-2 Una estructura organizacional que esté bien planificada y constituida servirá efectivamente para reforzar los objetivos y hacer que los diferentes departamentos de la organización crezcan en la misma dirección.
+        .row
+          .col-md-12
+            .bloque-texto-b.color-secundario
+              .bloque-texto-b__texto
+                p Esta es necesaria para que cada uno de los trabajadores entienda el funcionamiento de la misma, obteniendo una cadena de mandos clara donde los empleados tengan una correcta orientación y seguridad al desarrollar sus actividades.
+                <br><br/> Es por esto que cada organización debe contar con un modelo de estructura organizacional en la cual estén totalmente definidos los cargos y las responsabilidades de cada tarea, para de esta manera eliminar las dificultades que puedan aparecer por la falta de comunicación y una planeación estratégica errónea. 
+                <br><br/> Teniendo en cuenta lo anterior, se invita a profundizar en el tema, debido a que se pueden encontrar diferentes tipos de estructura organizacional, los cuales serán descritos en la siguiente tabla 1: 
+      .col-lg-5
+        img(src="@/assets/curso/tema1/img3.svg")
+
+    .row.justify-content-center 
+      .col-md-10    
+        .titulo-sexto.color-acento-contenido
+          h5 Título de sexto nivel, 16pt
+          span subtitulo
+
+        .tabla-b.color-acento-contenido.mb-5
+          .tabla-b__header.color-acento-contenido
+            tr
+              th.text-white Estructura organizacional 
+              td.text-white <strong>Concepto</strong> 
+          table
+            caption Nota. SENA, (2022).
+            tr
+              th Lineal
+              td Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
+            tr
+              th Horizontal
+              td En esta estructura los mandos de autoridad disminuyen, por lo que las personas que están ocupando los niveles más altos deberán estar en contacto directo con los empleados que se desempeñen en la primera línea.
+            tr
+              th Funcional
+              td De esta manera se realiza una división de las tareas de la organización por medio de unidades especializadas, donde cada una de ellas cuenta con un jefe independiente, el cual es el encargado de coordinar su equipo de trabajo y a su vez permite una correcta comunicación con los demás equipos especializados.
+            tr
+              th Divisional
+              td En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
+            tr
+              th Matricial
+              td La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
+            tr
+              th Central
+              td Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
+    separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Procesos y procedimientos organizacionales
+
+    .row.mb-4
+      .col-md-5  
+        img(src="@/assets/curso/tema1/7.png")
+      .col-md-7
+        p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
+        span Los procesos están directamente relacionados con la misión de la empresa y a su vez con la calidad de sus productos o servicios, los cuales se relacionan secuencialmente. Los elementos que intervienen dentro de cada proceso son los siguientes:
+        p 
+        ul.lista-ul.lista-ul.lista-ul--color
+          li 
+            i.fas.fa-book-open
+            span Procedimientos.
+          li 
+            i.fas.fa-book-open 
+            span Formas.
+
+          li 
+            i.fas.fa-book-open 
+            span Informes.
+
+          li 
+            i.fas.fa-book-open 
+            span Archivo.
+
+          li 
+            i.fas.fa-book-open 
+            span Equipo.
+            
+          li 
+            i.fas.fa-book-open 
+            span Espacio.
+          li 
+            i.fas.fa-book-open 
+            span Personal.
+        p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
+
+    p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
+
+    .row.mx-0.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.bgr_2.align-items-center
+              figure
+                img.img250.p-2.center(src='@/assets/curso/tema1/img4.svg', alt='imagen 1-2')
+                h3.text-center.text-white Líder social    
+            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+              h3.text-center Poder:
+              p.text-center.mt-3 Tener la habilidad para influir en un grupo de trabajo, lo cual es esencial para el cumplimiento de los objetivos, tanto individuales como organizacionales. 
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.bgr_2.align-items-center
+              figure
+                img.img250.p-2.center(src='@/assets/curso/tema1/img5.svg', alt='imagen 1-2')
+                h3.text-center.text-white Empresario   
+            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+              h3.text-center Autoridad: 
+              p.text-center.mt-3 Tener el derecho de dar órdenes, establecer las responsabilidades dentro de cada proceso.
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.bgr_2.align-items-center
+              figure
+                img.img250.p-2.center(src='@/assets/curso/tema1/img6.svg', alt='imagen 1-2')
+                h3.text-center.text-white Entidad estatal  
+            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+              h3.text-center Toma de decisiones:  
+              p.text-center.mt-3 Es necesario establecer los rangos dentro de la organización y niveles jerárquicos si así se requiere, donde las decisiones sean tomadas únicamente por las personas responsables de cada proceso. 
+
+      .col-sm-6.col-xl-3.mb-5.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.bgr_2.align-items-center
+              figure
+                img.img250.p-2.center(src='@/assets/curso/tema1/img7.svg', alt='imagen 1-2')
+                h3.text-center.text-white Crisis sanitaria  
+            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+              h3.text-center Liderazgo: 
+              p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
+
+
 
 </template>
 
