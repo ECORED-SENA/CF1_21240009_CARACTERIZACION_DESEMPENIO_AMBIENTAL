@@ -121,8 +121,8 @@
     .row.justify-content-center 
       .col-md-10    
         .titulo-sexto.color-acento-contenido
-          h5 Título de sexto nivel, 16pt
-          span subtitulo
+          h5 Tabla 1
+          span  Estructuras organizacionales
 
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header.color-acento-contenido
@@ -240,8 +240,17 @@
               h3.text-center Liderazgo: 
               p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
 
-
-
+    .row
+      .col-md-7
+        p Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales. 
+        span Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
+        .row.BG09.justify.content-center.align-items-center.mb-4
+          .col-lg-2.col-6.center
+            img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
+          .col-lg-10.p-4
+            p Para profundizar en el tema se invita a ver el video “Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2, que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
+      .col-md-5
+        img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
 </template>
 
 <script>
