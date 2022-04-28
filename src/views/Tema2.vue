@@ -203,12 +203,12 @@
           figure
             img(src='@/assets/curso/tema2/vec13.svg', style='width: 128px')
     .row
-    .col-md-10.center
-      .bg--2-claro2.position-relative.p-3.mb-5
-        img.position-absolute.d-none.d-lg-block(src='@/assets/curso/tema2/vec14.svg' alt="Adornos flotantes" style="left: -2% ; top: -27%; width: 170px ")
-        .row.justify-content-end 
-          .col-lg-10
-            p.m-2 Para profundizar en el tema se invita a revisar el video <b>“Componentes ambientales”</b>, que se encuentra en la sección de materiales complementarios, el cual permitirá identificar elementos claves para consolidar sus conocimientos.
+      .col-md-10.center
+        .bg--2-claro2.position-relative.p-3.mb-5
+          img.position-absolute.d-none.d-lg-block(src='@/assets/curso/tema2/vec14.svg' alt="Adornos flotantes" style="left: -2% ; top: -27%; width: 170px ")
+          .row.justify-content-end 
+            .col-lg-10
+              p.m-2 Para profundizar en el tema se invita a revisar el video <b>“Componentes ambientales”</b>, que se encuentra en la sección de materiales complementarios, el cual permitirá identificar elementos claves para consolidar sus conocimientos.
 
 </template>
 

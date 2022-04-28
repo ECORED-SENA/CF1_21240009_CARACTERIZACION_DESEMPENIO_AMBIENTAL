@@ -8,7 +8,7 @@
         span i      
       h1 Introducción
     
-    .row.col-12.col-md-12.BG12.justify.content-center.align-items-center.mb-4
+    .row.col-12.col-md-12.BG2.justify.content-center.align-items-center.mb-4
       .col-md-4.izq
         img(src='@/assets/curso/img1.png' alt='AvatarTop')
       .col-md-8
