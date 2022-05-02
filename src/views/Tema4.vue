@@ -103,9 +103,87 @@
               td Se expide el código de minas. 
               td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
             
+    figure.mb-4
+      img(src='@/assets/curso/tema4/title.svg' style='width: 380px')
+    
+    p.mb-4 Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar en la siguiente tabla 5:
+
+    .row.mx-0.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fond_2.align-items-center
+              figure.p-5
+                img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
+                h3.text-center.text-white Convención para el cambio climático  
+                p.text-center.text-white Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos.  
+                
+            .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
+              img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
+              h3.text-center Convención para el cambio climático 
+              p.text-center.mt-2 Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos. 
+              a.boton.color-acento-botones.mx-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span Minambiente
+                i.fas.fa-link 
 
 
 
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fond_2.align-items-center
+              figure.p-5
+                img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
+                h3.text-center.text-white Convención para la protección de la biodiversidad 
+                p.text-center.text-white Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
+                 
+            .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
+              img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
+              h3.text-center Convención para la protección de la biodiversidad 
+              p.text-center.mt-3 Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
+              a.boton.color-acento-botones.mx-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span cancilleria
+                i.fas.fa-link 
+
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fond_2.align-items-center
+              figure.p-5
+                img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
+                h3.text-center.text-white Convención de Basilea sobre residuos peligrosos (1989). 
+                p.text-center.text-white Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
+                 
+            .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
+              img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
+              h3.text-center Convención de Basilea sobre residuos peligrosos (1989). 
+              p.text-center.mt-3 Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
+              a.boton.color-acento-botones.mx-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span Convenio
+                i.fas.fa-link 
+
+
+      .col-sm-6.col-xl-3.mb-5.mb-xl-0
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fond_2.align-items-center
+              figure.p-5
+                img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
+                h3.text-center.text-white Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
+                p.text-center.text-white Ratificado por Colombia por medio de la Ley de 1990.
+                 
+            .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
+              img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
+              h3.text-center Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
+              p.text-center.mt-3 Ratificado por Colombia por medio de la Ley de 1990.
+              a.boton.color-acento-botones.mx-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                span Minambiente
+                i.fas.fa-link 
 
 </template>
 
