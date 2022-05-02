@@ -299,7 +299,7 @@
 
     p.mb-4 Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
 
-    .row
+    .row.mb-2
       .col-md-9
         .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
           LineaTiempoC.color-primario
@@ -370,7 +370,24 @@
       .col-md-3
         figure.mb-4
           img(src='@/assets/curso/tema4/img2.png')
+    separador
 
+    #t_4_1.titulo-segundo.color-acento-contenido   
+      h2 4.1  Matrices de requisitos legales
+
+    .row.mb-5
+      .col-md-7
+        p La matriz de requisitos legales es la recopilación de todos aquellos requisitos normativos que se le exigen a la organización, de acuerdo con su actividad económica. Estas normas y obligaciones legales están moderadas por diferentes mecanismos que buscan que una empresa garantice mediante la evidencia de actividades el cumplimiento de la normatividad vigente. 
+        .cajon.color-primario(style='background-color: #B1DBEA').p-3 
+          p.mb-2 Por lo tanto, las matrices de requisitos legales se deben actualizar continuamente para que estén en total cumplimiento de las normativas.
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema4/img3.png')
+
+    p.mb-5.text-center <b>Estos son algunos de los principales aspectos que se debe tener en cuenta en la matriz de requisitos legales:</b>   
+
+    figure.col-9.center.mb-4
+      img(src='@/assets/curso/tema4/grafica.svg')
 
 
 </template>
