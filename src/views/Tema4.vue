@@ -185,6 +185,67 @@
                 span Minambiente
                 i.fas.fa-link 
 
+    .row.mb-5
+      .col-md-8
+        figure.mb-4
+          img(src='@/assets/curso/tema4/title2.svg' style='width: 340px')
+        P Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales, en la tabla 6 se pueden observar: 
+    
+        .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
+          LineaTiempoC.color-primario
+            .row.justify-content-center(titulo="Ley 99 de 1993")
+              .col-11
+                p Por la cual se crea el Ministerio del Medio Ambiente.
+                a.anexo(style='background-color:#F4F9FF')(href="http://www.humboldt.org.co/images/documentos/pdf/Normativo/1993-12-22-ley-99-crea-el-sina-y-mma.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se...
+
+            .row.justify-content-center(titulo="Ley 23 de 1973")
+              .col-11
+                p En la cual se dictan los principios sobre prevención de los contaminantes del agua, suelo y aire.
+                a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9018" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Reglamentada Parcialmente por el Decreto Nacional 704 de 1986...
+
+
+            .row.justify-content-center(titulo="Ley 388 de 1997")
+              .col-11
+                p Se define el ordenamiento territorial municipal y distrital.
+                a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=339" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Reglamentada por los Decretos Nacionales 150 y 507 de 1999; 932...
+              
+            .row.justify-content-center(titulo="Ley 491 de 1999")
+              .col-11
+                p Se modifica el código penal y se establecen delitos contra los recursos naturales y el medio ambiente.
+                a.anexo(style='background-color:#F4F9FF')(href="http://www.desarrolloeconomico.gov.co/sites/default/files/marco-legal/Ley-491-1999.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Diario Oficial No. 43.477, de 15 de enero de 1999 Por la cual se...
+
+            .row.justify-content-center(titulo="Ley 29 de 1992")
+              .col-11
+                p Por medio de la cual se adopta el "Protocolo de Montreal relativo a las sustancias agotadoras de la capa de ozono”.
+                a.anexo(style='background-color:#F4F9FF')(href="http://www.ideam.gov.co/documents/24024/26915/C_Users_JGomez_Documents_ley_29_1992.pdf/7258708f-515d-4021-8fff-99e8cba0e0f6" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...
+                    
+      .col-md-4
+        figure
+          img(src='@/assets/curso/tema4/img1.png')
+
+
+
+
 </template>
 
 <script>
