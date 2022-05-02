@@ -104,7 +104,7 @@
               td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
             
     figure.mb-4
-      img(src='@/assets/curso/tema4/title.svg' style='width: 380px')
+      img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
     
     p.mb-4 Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar en la siguiente tabla 5:
 
@@ -237,12 +237,139 @@
                     .anexo__icono
                       img(src="@/assets/template/enlace.svg")
                     .anexo__texto
-                      p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...
-                    
+                      p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...             
       .col-md-4
         figure
           img(src='@/assets/curso/tema4/img1.png')
 
+    .row
+      .col-md-5.py-5.my-5
+        figure.mb-4
+          img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
+        p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
+      
+      .col-md-7   
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
+          .tarjeta.color-secundario.fondos.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/tema4/icon5.svg')
+            h2.text-center Decreto 1791
+            p.text-center.mb-0 Por medio del cual se establece el régimen de aprovechamiento forestal.
+            br
+            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1296" target="_blank")
+              span Funcionpublica
+              i.fas.fa-link
+
+          .tarjeta.color-secundario.fondos.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/tema4/icon6.svg')
+            h2.text-center Decreto 870 de 2017
+            p.text-center.mb-0 Se establece el pago por servicios ambientales.
+            br
+            a.boton.color-acento-botones.mx-3(href="http://es.presidencia.gov.co/normativa/normativa/DECRETO%20870%20DEL%2025%20DE%20MAYO%20DE%202017.pdf" target="_blank")
+              span Decreto
+              i.fas.fa-file
+
+          .tarjeta.color-secundario.fondos.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/tema4/icon7.svg')
+            h2.text-center Decreto 2820 de 2010
+            p.text-center.mb-0 Se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales.
+            br
+            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=45524" target="_blank")
+              span Funcionpublica
+              i.fas.fa-link
+
+          .tarjeta.color-secundario.fondos.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/tema4/icon8.svg')
+            h2.text-center Decreto 283
+            p.text-center.mb-0 Hidrocarburos - Por el cual se reglamenta el almacenamiento, manejo, transporte, distribución de combustibles líquidos derivados del petróleo y el transporte por carrotanques de petróleo crudo.
+            br
+            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8807" target="_blank")
+              span Funcionpublica
+              i.fas.fa-link
+
+    figure.mb-4
+      img(src='@/assets/curso/tema4/title4.svg' style='width: 440px')
+
+    p.mb-4 Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
+
+    .row
+      .col-md-9
+        .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
+          LineaTiempoC.color-primario
+            .row.justify-content-center(titulo="Resolución 1561 de 2019")
+              .col-11
+                p Se establecen los términos de referencia para la elaboración de estudios de impacto ambiental. 
+                a.anexo(style='background-color:#F4F9FF')(href="https://medioambiente.uexternado.edu.co/wp-content/uploads/sites/19/2020/03/RESOLUCI%C3%93N-1561-DE-2019.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se reordena el Sector Público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables...
+
+            .row.justify-content-center(titulo="Resolución 2210 de 2018")
+              .col-11
+                p Se reglamenta el uso del sello minero ambiental colombiano.
+                a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/0b-res%202210%20de%202018.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+
+
+            .row.justify-content-center(titulo="Resolución 1447 de 2018")
+              .col-11
+                p Se reglamenta el sistema de monitoreo y evaluación de las acciones de mitigación.
+                a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1447_2018.htm" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+              
+            .row.justify-content-center(titulo="Resolución 689 de 2016")
+              .col-11
+                p Por la cual se adopta el reglamento técnico que establece los límites máximos de fósforo y la biodegradabilidad de los tensioactivos presentes en detergentes y jabones, y se dictan otras disposiciones.
+                a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/Resoluci%C3%B3n%200689.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+
+            .row.justify-content-center(titulo="Resolución 260 de 2011")
+              .col-11
+                p En la cual se fijan las tarifas para el cobro de los servicios de evaluación y seguimiento de licencias ambientales. 
+                a.anexo(style='background-color:#F4F9FF')(href="https://xperta.legis.co/visor/legcol/legcol_b7f597e009720114e0430a0101510114/coleccion-de-legislacion-colombiana/resolucion-260-de-2011" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE       
+            
+            .row.justify-content-center(titulo="Resolución 2064 de 2010")
+              .col-11
+                p Por la cual se reglamentan las medidas posteriores a la aprehensión preventiva, restitución o decomiso de especímenes de especies silvestres de fauna y flora terrestre y acuática y se dictan otras disposiciones. 
+                a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
+
+            .row.justify-content-center(titulo="Resolución 1023 de 2005")
+              .col-11
+                p Se adoptan guías ambientales que serán utilizadas como medidas de autogestión.  
+                a.anexo(style='background-color:#F4F9FF')(href="https://www1.upme.gov.co/siame/Documents/Res1023-28-07-05_guias_ambientales.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/enlace.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
+
+      .col-md-3
+        figure.mb-4
+          img(src='@/assets/curso/tema4/img2.png')
 
 
 
