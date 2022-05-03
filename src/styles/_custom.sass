@@ -410,3 +410,17 @@
     background-image: url(../assets/curso/tema4/fond2.svg) !important
     background-size: cover
 
+.bg_grad-01
+  position: relative
+  .tarjeta, .row, .titulo-segundo, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 175px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 80%
+    background-image: url("../assets/curso/tema1/fondo.svg")
+    background-repeat: no-repeat

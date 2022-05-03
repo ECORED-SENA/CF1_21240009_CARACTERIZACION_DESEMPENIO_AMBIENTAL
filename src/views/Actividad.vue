@@ -8,15 +8,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/3-TÉRMINOSARRASTRAR.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 ¿Qué he aprendido en esta experiencia de aprendizaje?
-        p.mb-4 Identificar la apropiación de conocimiento desarrollado a través de la experiencia de aprendizaje por parte del aprendiz.
+          h2 Contexto organizacional y ciclo de vida.
+        p.mb-4 Afianzar algunos de los conceptos sobre el contexto organizacional y ciclo de vida.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso o Verdadero 
+              p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
