@@ -8,50 +8,51 @@
         span.text-white 3
       h1 Elementos de protección personal
 
-    .row.mb-4
-      .col-md-7
-        p El Análisis de ciclo de vida (ACV) es una metodología aplicada que permite evaluar los impactos ambientales asociados a un producto dentro de todas sus etapas organizacionales. Con este análisis se pretende determinar los consumos de materias primas y de energías que están inmersas en cada proceso de producción, junto con los derivados o desechos de cada uno de ellos.<br><br/> Todas las actividades que se realicen dentro de un proceso productivo tienen impactos ambientales, ya que se consumen energías y recursos, y a su vez se emiten sustancias que generan afectaciones ambientales. 
-        .cajon.color-primario(style='background-color: #B1DBEA').p-3 
-          p.mb-2 Los análisis de ciclo de vida se realizan para prevenir de manera oportuna las diferentes contaminaciones que se puedan dar dentro de una organización, el ACV de un producto incluye todas las entradas/salidas de los procesos que participan a lo largo de su ciclo de vida. 
-      .col-md-5
-        figure
-          img(src='@/assets/curso/tema3/img1.png')
+    .bg_grad-06
+      .row.mb-4
+        .col-md-7
+          p El Análisis de ciclo de vida (ACV) es una metodología aplicada que permite evaluar los impactos ambientales asociados a un producto dentro de todas sus etapas organizacionales. Con este análisis se pretende determinar los consumos de materias primas y de energías que están inmersas en cada proceso de producción, junto con los derivados o desechos de cada uno de ellos.<br><br/> Todas las actividades que se realicen dentro de un proceso productivo tienen impactos ambientales, ya que se consumen energías y recursos, y a su vez se emiten sustancias que generan afectaciones ambientales. 
+          .cajon.color-primario(style='background-color: #B1DBEA').p-3 
+            p.mb-2 Los análisis de ciclo de vida se realizan para prevenir de manera oportuna las diferentes contaminaciones que se puedan dar dentro de una organización, el ACV de un producto incluye todas las entradas/salidas de los procesos que participan a lo largo de su ciclo de vida. 
+        .col-md-5
+          figure
+            img(src='@/assets/curso/tema3/img1.png')
 
-    .row.justify-content-center.mb-4
-      .col-md-3
-        .tarjeta.BG11.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end La extracción de materias primas
+      .row.justify-content-center.mb-4
+        .col-md-3
+          .tarjeta.BG11.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end La extracción de materias primas
 
-      .col-md-3
-        .tarjeta.BG12.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end1 El procesado de los materiales necesarios para la manufactura de componentes.
+        .col-md-3
+          .tarjeta.BG12.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end1 El procesado de los materiales necesarios para la manufactura de componentes.
 
-      .col-md-3
-        .tarjeta.BG13.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end Uso del producto
+        .col-md-3
+          .tarjeta.BG13.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end Uso del producto
 
-      .col-md-3
-        .tarjeta.BG14.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end Reciclaje y/o la gestión final
+        .col-md-3
+          .tarjeta.BG14.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end Reciclaje y/o la gestión final
 
-      .col-md-3
-        .tarjeta.BG15.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end El transporte
+        .col-md-3
+          .tarjeta.BG15.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end El transporte
 
-      .col-md-3
-        .tarjeta.BG16.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end Almacenaje
+        .col-md-3
+          .tarjeta.BG16.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end Almacenaje
 
-      .col-md-3
-        .tarjeta.BG17.p-4
-          .row.justify-content-center
-            h5.text-center.text-white.end2 Distribución y otras actividades intermedias entre las fases del ciclo de vida también se incluyen cuando tienen la relevancia suficiente.
+        .col-md-3
+          .tarjeta.BG17.p-4
+            .row.justify-content-center
+              h5.text-center.text-white.end2 Distribución y otras actividades intermedias entre las fases del ciclo de vida también se incluyen cuando tienen la relevancia suficiente.
 
     p.mb-5 La vida de un producto comienza en el diseño y desarrollo de este y finaliza con las actividades de reutilización y reciclaje, pasando por las etapas que se describen en la siguiente tabla 2: 
 

@@ -154,104 +154,106 @@
 
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Procesos y procedimientos organizacionales
+    
+    .bg_grad-02                    
+      .row.mb-4
+        .col-md-5  
+          img(src="@/assets/curso/tema1/7.png")
+        .col-md-7
+          p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
+          span Los procesos están directamente relacionados con la misión de la empresa y a su vez con la calidad de sus productos o servicios, los cuales se relacionan secuencialmente. Los elementos que intervienen dentro de cada proceso son los siguientes:
+          p 
+          ul.lista-ul.lista-ul.lista-ul--color
+            li 
+              i.fas.fa-book-open
+              span Procedimientos.
+            li 
+              i.fas.fa-book-open 
+              span Formas.
 
-    .row.mb-4
-      .col-md-5  
-        img(src="@/assets/curso/tema1/7.png")
-      .col-md-7
-        p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
-        span Los procesos están directamente relacionados con la misión de la empresa y a su vez con la calidad de sus productos o servicios, los cuales se relacionan secuencialmente. Los elementos que intervienen dentro de cada proceso son los siguientes:
-        p 
-        ul.lista-ul.lista-ul.lista-ul--color
-          li 
-            i.fas.fa-book-open
-            span Procedimientos.
-          li 
-            i.fas.fa-book-open 
-            span Formas.
+            li 
+              i.fas.fa-book-open 
+              span Informes.
 
-          li 
-            i.fas.fa-book-open 
-            span Informes.
+            li 
+              i.fas.fa-book-open 
+              span Archivo.
 
-          li 
-            i.fas.fa-book-open 
-            span Archivo.
+            li 
+              i.fas.fa-book-open 
+              span Equipo.
+              
+            li 
+              i.fas.fa-book-open 
+              span Espacio.
+            li 
+              i.fas.fa-book-open 
+              span Personal.
+          p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
 
-          li 
-            i.fas.fa-book-open 
-            span Equipo.
-            
-          li 
-            i.fas.fa-book-open 
-            span Espacio.
-          li 
-            i.fas.fa-book-open 
-            span Personal.
-        p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
+      p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
 
-    p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
+      .row.mx-0.mb-5
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr_2.align-items-center
+                figure
+                  img.img250.p-2.center(src='@/assets/curso/tema1/img4.svg', alt='imagen 1-2')
+                  h3.text-center.text-white Líder social    
+              .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+                h3.text-center Poder:
+                p.text-center.mt-3 Tener la habilidad para influir en un grupo de trabajo, lo cual es esencial para el cumplimiento de los objetivos, tanto individuales como organizacionales. 
 
-    .row.mx-0.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.bgr_2.align-items-center
-              figure
-                img.img250.p-2.center(src='@/assets/curso/tema1/img4.svg', alt='imagen 1-2')
-                h3.text-center.text-white Líder social    
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-              h3.text-center Poder:
-              p.text-center.mt-3 Tener la habilidad para influir en un grupo de trabajo, lo cual es esencial para el cumplimiento de los objetivos, tanto individuales como organizacionales. 
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr_2.align-items-center
+                figure
+                  img.img250.p-2.center(src='@/assets/curso/tema1/img5.svg', alt='imagen 1-2')
+                  h3.text-center.text-white Empresario   
+              .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+                h3.text-center Autoridad: 
+                p.text-center.mt-3 Tener el derecho de dar órdenes, establecer las responsabilidades dentro de cada proceso.
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.bgr_2.align-items-center
-              figure
-                img.img250.p-2.center(src='@/assets/curso/tema1/img5.svg', alt='imagen 1-2')
-                h3.text-center.text-white Empresario   
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-              h3.text-center Autoridad: 
-              p.text-center.mt-3 Tener el derecho de dar órdenes, establecer las responsabilidades dentro de cada proceso.
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr_2.align-items-center
+                figure
+                  img.img250.p-2.center(src='@/assets/curso/tema1/img6.svg', alt='imagen 1-2')
+                  h3.text-center.text-white Entidad estatal  
+              .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+                h3.text-center Toma de decisiones:  
+                p.text-center.mt-3 Es necesario establecer los rangos dentro de la organización y niveles jerárquicos si así se requiere, donde las decisiones sean tomadas únicamente por las personas responsables de cada proceso. 
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.bgr_2.align-items-center
-              figure
-                img.img250.p-2.center(src='@/assets/curso/tema1/img6.svg', alt='imagen 1-2')
-                h3.text-center.text-white Entidad estatal  
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-              h3.text-center Toma de decisiones:  
-              p.text-center.mt-3 Es necesario establecer los rangos dentro de la organización y niveles jerárquicos si así se requiere, donde las decisiones sean tomadas únicamente por las personas responsables de cada proceso. 
+        .col-sm-6.col-xl-3.mb-5.mb-xl-0
+          .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.bgr_2.align-items-center
+                figure
+                  img.img250.p-2.center(src='@/assets/curso/tema1/img7.svg', alt='imagen 1-2')
+                  h3.text-center.text-white Crisis sanitaria  
+              .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+                h3.text-center Liderazgo: 
+                p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
 
-      .col-sm-6.col-xl-3.mb-5.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.bgr_2.align-items-center
-              figure
-                img.img250.p-2.center(src='@/assets/curso/tema1/img7.svg', alt='imagen 1-2')
-                h3.text-center.text-white Crisis sanitaria  
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-              h3.text-center Liderazgo: 
-              p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
-
-    .row
-      .col-md-7
-        p Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales. 
-        span Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
-        .row.BG09.justify.content-center.align-items-center.mb-4
-          .col-lg-2.col-6.center
-            img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
-          .col-lg-10.p-4
-            p Para profundizar en el tema se invita a ver el video “Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2, que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
-      .col-md-5
-        img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
+      .row
+        .col-md-7
+          p Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales. 
+          span Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
+          .row.BG09.justify.content-center.align-items-center.mb-4
+            .col-lg-2.col-6.center
+              img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
+            .col-lg-10.p-4
+              p Para profundizar en el tema se invita a ver el video “Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2, que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
+        .col-md-5
+          img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
+          
 </template>
 
 <script>

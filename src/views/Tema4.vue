@@ -293,83 +293,85 @@
             a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8807" target="_blank")
               span Funcionpublica
               i.fas.fa-link
+    
+    .bg_grad-07
+      figure.mb-4
+        img(src='@/assets/curso/tema4/title4.svg' style='width: 440px')
 
-    figure.mb-4
-      img(src='@/assets/curso/tema4/title4.svg' style='width: 440px')
+      p.mb-4 Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
 
-    p.mb-4 Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
+    
+      .row.mb-2
+        .col-md-9
+          .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
+            LineaTiempoC.color-primario
+              .row.justify-content-center(titulo="Resolución 1561 de 2019")
+                .col-11
+                  p Se establecen los términos de referencia para la elaboración de estudios de impacto ambiental. 
+                  a.anexo(style='background-color:#F4F9FF')(href="https://medioambiente.uexternado.edu.co/wp-content/uploads/sites/19/2020/03/RESOLUCI%C3%93N-1561-DE-2019.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se reordena el Sector Público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables...
 
-    .row.mb-2
-      .col-md-9
-        .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
-          LineaTiempoC.color-primario
-            .row.justify-content-center(titulo="Resolución 1561 de 2019")
-              .col-11
-                p Se establecen los términos de referencia para la elaboración de estudios de impacto ambiental. 
-                a.anexo(style='background-color:#F4F9FF')(href="https://medioambiente.uexternado.edu.co/wp-content/uploads/sites/19/2020/03/RESOLUCI%C3%93N-1561-DE-2019.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se reordena el Sector Público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables...
-
-            .row.justify-content-center(titulo="Resolución 2210 de 2018")
-              .col-11
-                p Se reglamenta el uso del sello minero ambiental colombiano.
-                a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/0b-res%202210%20de%202018.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+              .row.justify-content-center(titulo="Resolución 2210 de 2018")
+                .col-11
+                  p Se reglamenta el uso del sello minero ambiental colombiano.
+                  a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/0b-res%202210%20de%202018.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
 
 
-            .row.justify-content-center(titulo="Resolución 1447 de 2018")
-              .col-11
-                p Se reglamenta el sistema de monitoreo y evaluación de las acciones de mitigación.
-                a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1447_2018.htm" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+              .row.justify-content-center(titulo="Resolución 1447 de 2018")
+                .col-11
+                  p Se reglamenta el sistema de monitoreo y evaluación de las acciones de mitigación.
+                  a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1447_2018.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+                
+              .row.justify-content-center(titulo="Resolución 689 de 2016")
+                .col-11
+                  p Por la cual se adopta el reglamento técnico que establece los límites máximos de fósforo y la biodegradabilidad de los tensioactivos presentes en detergentes y jabones, y se dictan otras disposiciones.
+                  a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/Resoluci%C3%B3n%200689.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+
+              .row.justify-content-center(titulo="Resolución 260 de 2011")
+                .col-11
+                  p En la cual se fijan las tarifas para el cobro de los servicios de evaluación y seguimiento de licencias ambientales. 
+                  a.anexo(style='background-color:#F4F9FF')(href="https://xperta.legis.co/visor/legcol/legcol_b7f597e009720114e0430a0101510114/coleccion-de-legislacion-colombiana/resolucion-260-de-2011" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE       
               
-            .row.justify-content-center(titulo="Resolución 689 de 2016")
-              .col-11
-                p Por la cual se adopta el reglamento técnico que establece los límites máximos de fósforo y la biodegradabilidad de los tensioactivos presentes en detergentes y jabones, y se dictan otras disposiciones.
-                a.anexo(style='background-color:#F4F9FF')(href="http://www.andi.com.co/Uploads/Resoluci%C3%B3n%200689.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE
+              .row.justify-content-center(titulo="Resolución 2064 de 2010")
+                .col-11
+                  p Por la cual se reglamentan las medidas posteriores a la aprehensión preventiva, restitución o decomiso de especímenes de especies silvestres de fauna y flora terrestre y acuática y se dictan otras disposiciones. 
+                  a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
 
-            .row.justify-content-center(titulo="Resolución 260 de 2011")
-              .col-11
-                p En la cual se fijan las tarifas para el cobro de los servicios de evaluación y seguimiento de licencias ambientales. 
-                a.anexo(style='background-color:#F4F9FF')(href="https://xperta.legis.co/visor/legcol/legcol_b7f597e009720114e0430a0101510114/coleccion-de-legislacion-colombiana/resolucion-260-de-2011" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE       
-            
-            .row.justify-content-center(titulo="Resolución 2064 de 2010")
-              .col-11
-                p Por la cual se reglamentan las medidas posteriores a la aprehensión preventiva, restitución o decomiso de especímenes de especies silvestres de fauna y flora terrestre y acuática y se dictan otras disposiciones. 
-                a.anexo(style='background-color:#F4F9FF')(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
+              .row.justify-content-center(titulo="Resolución 1023 de 2005")
+                .col-11
+                  p Se adoptan guías ambientales que serán utilizadas como medidas de autogestión.  
+                  a.anexo(style='background-color:#F4F9FF')(href="https://www1.upme.gov.co/siame/Documents/Res1023-28-07-05_guias_ambientales.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
 
-            .row.justify-content-center(titulo="Resolución 1023 de 2005")
-              .col-11
-                p Se adoptan guías ambientales que serán utilizadas como medidas de autogestión.  
-                a.anexo(style='background-color:#F4F9FF')(href="https://www1.upme.gov.co/siame/Documents/Res1023-28-07-05_guias_ambientales.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
-
-      .col-md-3
-        figure.mb-4
-          img(src='@/assets/curso/tema4/img2.png')
+        .col-md-3
+          figure.mb-4
+            img(src='@/assets/curso/tema4/img2.png')
     separador
 
     #t_4_1.titulo-segundo.color-acento-contenido   
