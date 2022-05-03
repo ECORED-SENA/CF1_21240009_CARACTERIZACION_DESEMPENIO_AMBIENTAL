@@ -100,7 +100,7 @@
           img.position-absolute.d-none.d-lg-block(src='@/assets/curso/tema2/vec14.svg' alt="Adornos flotantes" style="left: -10% ; top: 8%; width: 170px ")
           .row.justify-content-end 
             .col-lg-10
-              <h4 style="color: #126783;">Factores abióticos químicos</h4>
+              <h4 style="color: #126783;">Para tener en cuenta… </h4>
               p Inmersa en la norma se encuentra la normatividad ISO 14040 que hace referencia al análisis de ciclo de vida, la cual consta de una revisión y evaluación de los procesos adelantados por la empresa para determinar en qué etapas de su proceso se afecta el medio y sus posibles medidas de mitigación.
 
     p.mb-4 Para profundizar en el tema, se invita a consultar las dos normas ISO mencionadas anteriormente, con el fin de reforzar su aprendizaje:

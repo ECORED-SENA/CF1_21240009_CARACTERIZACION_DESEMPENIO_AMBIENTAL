@@ -24,8 +24,8 @@
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header.color-acento-contenido.center
             tr
-              td.text-white <strong>Clasificación</strong> 
-              td.text-white <strong>Concepto</strong> 
+              th.text-white <strong>Clasificación</strong> 
+              th.text-white <strong>Concepto</strong> 
               td.text-white <strong>Factores</strong> 
           table 
             tr
@@ -68,12 +68,12 @@
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header.color-acento-contenido.center
             tr
-              td.text-white <strong>Normas Generales</strong> 
-              td.text-white <strong>Concepto</strong> 
+              th.text-white <strong>Normas Generales</strong> 
+              th.text-white <strong>Concepto</strong> 
               td.text-white <strong>Enlaces</strong> 
           table 
             tr
-              td Constitución Nacional
+              th Constitución Nacional
               td.mb-5 Principios principales que expone la constitución:
                 ul.lista-ul.lista-ul.lista-ul--color.mb-5
                   li 
@@ -87,19 +87,19 @@
                     span Desarrollo sostenible.
               td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
             tr
-              td Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
+              th Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
               td Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
               td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551
             tr
-              td Ley sanitaria - Ley 09 de 1979.
+              th Ley sanitaria - Ley 09 de 1979.
               td Su principal objetivo es la conservación de la salud y del bienestar humano.
               td https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
             tr
-              td Ley 99 de 1993.
+              th Ley 99 de 1993.
               td Se crea el Ministerio de medio ambiente. 
               td https://www.icbf.gov.co/cargues/avance/docs/ley_0099_1993.htm
             tr
-              td Código minero - Ley 685 del 2001.
+              th Código minero - Ley 685 del 2001.
               td Se expide el código de minas. 
               td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
             
@@ -388,7 +388,54 @@
 
     figure.col-9.center.mb-4
       img(src='@/assets/curso/tema4/grafica.svg')
+    separador
 
+    #t_4_2.titulo-segundo.color-acento-contenido   
+      h2 4.2  Técnicas de recolección y conceptos
+
+    p.mb-4 Existen diferentes maneras de recolectar información dentro de una investigación, en la mayoría de casos solo depende de la pregunta de investigación que se formule o la información que se desee obtener. Algunos de estos métodos incluyen:
+
+    .row.justify-content-center.mb-5
+      .col-md-3
+        .tarjeta.BG18.p-5
+          .row.justify-content-center
+            img.py-3(src='@/assets/curso/tema4/icon9.svg' style='width: 130px')
+            h5.text-center.text-white Encuestas
+
+      .col-md-3
+        .tarjeta.BG18.p-5
+          .row.justify-content-center
+            img.py-3(src='@/assets/curso/tema4/icon10.svg' style='width: 130px')
+            h5.text-center.text-white Entrevistas
+
+      .col-md-3
+        .tarjeta.BG18.p-5
+          .row.justify-content-center
+            img.py-3(src='@/assets/curso/tema4/icon11.svg' style='width: 130px')
+            h5.text-center.text-white Revisión bibliográfica
+
+      .col-md-3
+        .tarjeta.BG18.p-5
+          .row.justify-content-center
+            img.py-3(src='@/assets/curso/tema4/icon12.svg' style='width: 130px')
+            h5.text-center.text-white Otras observación, registro, análisis
+
+    .row.mb-5
+      .col-md-7
+        .cajon-b.color-secundario.p-3
+          p.mb-0 Para casos concretos de recolección de información relacionada a la normatividad aplicada en una organización, se debe realizar una investigación según la actividad económica y los procesos que allí se adelanten. 
+          br
+          p Es necesario que el investigador revise las páginas web de las organizaciones y su organigrama para definir los procesos que allí se adelantan, también es primordial indagar si dentro de la empresa adelantan procesos de sistemas de gestión, que bien pueden ser de calidad, de medio ambiente o de salud y seguridad en el trabajo, esto con el fin de entender con claridad cuáles son las exigencias a nivel normativo que tiene la organización. 
+      
+        .bg--3-claro3.position-relative.p-4.mb-5.col-md-11
+          img.position-absolute.d-none.d-lg-block(src='@/assets/curso/tema2/vec14.svg' alt="Adornos flotantes" style="left: -10% ; top: 8%; width: 170px ")
+          .row.justify-content-end 
+            .col-lg-10
+              <h4 style="color: #126783;">Para tener en cuenta… </h4>
+              p Para profundizar en el tema se invita a revisar el video “Introducción a la normatividad ambiental en Colombia”, que se encuentra en la sección de material complementario, mediante el cual se podrá conocer algunos elementos claves sobre su aplicación en el país.
+      .col-md-5
+        img.py-3(src='@/assets/curso/tema4/icon13.svg')
+      
 
 </template>
 
