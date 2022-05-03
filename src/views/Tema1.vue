@@ -24,7 +24,7 @@
               h5.aling-1 El medio ambiente:
                 p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo. 
             .col-lg-5
-            figure
+              figure
                 img.p-y-1(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
           .row
@@ -32,7 +32,7 @@
               h5.aling-1 Insumos:
                 p.mt-3 Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
             .col-lg-5
-            figure
+              figure
                 img.p-y-1(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
           .row
@@ -40,7 +40,7 @@
               h5.aling-1 Entradas:
                 p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema. 
             .col-lg-5
-            figure
+              figure
                 img.p-y-1(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
           .row
@@ -48,7 +48,7 @@
               h5.aling-1 Salidas:
                 p.mt-3 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada. 
             .col-lg-5
-            figure
+              figure
                 img.p-y-1(src='@/assets/curso/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
           .row
@@ -56,7 +56,7 @@
               h5.aling-1 Los procesos de conversión:
                 p.mt-3 Son todos aquellos que comprenden la estructuración organizacional y los procesos asociados al sistema productivo. 
             .col-lg-5
-            figure
+              figure
                 img.p-y-1(src='@/assets/curso/tema1/5.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
       .row.mb-4
