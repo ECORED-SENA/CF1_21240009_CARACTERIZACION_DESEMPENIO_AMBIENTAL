@@ -9,11 +9,11 @@
       h1 Componentes Ambientales
 
     .bg_grad-03
-      .row.BG10.justify.content-center.align-items-center.mb-5
+      .row.tarjeta.BG.justify.content-center.align-items-center.mb-5
         .col-lg-8
-          p.col-md-9.p-4.cor Los componentes ambientales son todos los elementos, factores o recursos naturales que presentan interacciones entre sí, lo cual permite que se genere la vida en nuestro planeta. Estos tienen una vital influencia en el medio ambiente y por ende con cada uno de los seres vivos. Los componentes ambientales se pueden dividir en tres grandes grupos que son los factores bióticos, abióticos y socioculturales.
-        .col-lg-4.col-6.center
-          img.p-2(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
+          p.col-md-10.p-2.cor Los componentes ambientales son todos los elementos, factores o recursos naturales que presentan interacciones entre sí, lo cual permite que se genere la vida en nuestro planeta. Estos tienen una vital influencia en el medio ambiente y por ende con cada uno de los seres vivos. Los componentes ambientales se pueden dividir en tres grandes grupos que son los factores bióticos, abióticos y socioculturales.
+        .col-lg-4.col-10.center
+          img(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
 
       .row.mb-4
         .col-md-4
@@ -45,7 +45,7 @@
           .col-xxl-3.col-lg-3.col-md-12.col-xl-3
             p.margen-texto En primera instancia se tendrán en cuenta los factores según su organización ecológica, las cuales presentan tres diferentes grupos descritos en el siguiente recurso de aprendizaje:  
 
-          .col-lg-3
+          .col-lg-3.mb-3
             .tarjeta.tarjetas-a.p-5.h-100.mb-4
               .iconos.mb-4
                 img(src='@/assets/curso/tema2/vec3.svg' style='width: 120px')
@@ -53,7 +53,7 @@
               h5 Individuos:
               p Son organismos unitarios que presentan una estructura independiente, la cual puede ser unicelular o pluricelular y además no tiene la necesidad de otro ser vivo para poder sobrevivir en algún ecosistema. 
 
-          .col-lg-3
+          .col-lg-3.mb-3
             .tarjeta.tarjetas-a.p-5.h-100.mb-4
               .iconos.mb-4
                 img(src='@/assets/curso/tema2/vec4.svg' style='width: 120px')
@@ -61,7 +61,7 @@
               h5 Población:
               p Esto hace referencia a un grupo de individuos de una misma especie que comparten el mismo espacio y en el mismo tiempo, por lo tanto, presentan diversas relaciones entre ellos, bien sea de alimentación o de reproducción. 
           
-          .col-lg-3
+          .col-lg-3.mb-3
             .tarjeta.tarjetas-a.p-5.h-100.mb-4
               .iconos.mb-4
                 img(src='@/assets/curso/tema2/vec5.svg' style='width: 120px')

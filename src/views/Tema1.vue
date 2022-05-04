@@ -23,7 +23,7 @@
             .col-lg-7.text-white
               h5.aling-1 El medio ambiente:
                 p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo. 
-            .col-lg-5
+            .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
@@ -31,7 +31,7 @@
             .col-lg-7.text-white
               h5.aling-1 Insumos:
                 p.mt-3 Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
-            .col-lg-5
+            .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
@@ -39,7 +39,7 @@
             .col-lg-7.text-white
               h5.aling-1 Entradas:
                 p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema. 
-            .col-lg-5
+            .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
@@ -47,7 +47,7 @@
             .col-lg-7.text-white
               h5.aling-1 Salidas:
                 p.mt-3 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada. 
-            .col-lg-5
+            .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
@@ -55,12 +55,12 @@
             .col-lg-7.text-white
               h5.aling-1 Los procesos de conversión:
                 p.mt-3 Son todos aquellos que comprenden la estructuración organizacional y los procesos asociados al sistema productivo. 
-            .col-lg-5
+            .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/5.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
       .row.mb-4
-        .col-md-1
+        .col-md-1.col-6
           figure
             img.p-y-1(src='@/assets/curso/tema1/icon1.svg', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
         .col-md-11
@@ -103,7 +103,7 @@
       h2 1.2 Estructura organizacional
 
     .row.justify-content-center.mb-5
-      .col-lg-7
+      .col-lg-7.mb-5
         .row.justify-content-center
           .col-lg-2.col-1
             img.celular(src="@/assets/curso/tema1/icon1.svg")
@@ -242,7 +242,7 @@
                 h3.text-center Liderazgo: 
                 p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
 
-      .row
+      .row.mb-4
         .col-md-7
           p Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales. 
           span Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.

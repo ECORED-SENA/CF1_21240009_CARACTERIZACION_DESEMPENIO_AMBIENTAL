@@ -9,7 +9,7 @@
       h1 Normativa
 
     .row.mb-4
-      .col-md-1
+      .col-md-1.col-6
         figure
           img.p-y-1(src='@/assets/curso/tema1/icon1.svg', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
       .col-md-11
@@ -398,25 +398,25 @@
     p.mb-4 Existen diferentes maneras de recolectar información dentro de una investigación, en la mayoría de casos solo depende de la pregunta de investigación que se formule o la información que se desee obtener. Algunos de estos métodos incluyen:
 
     .row.justify-content-center.mb-5
-      .col-md-3
+      .col-md-3.mb-3
         .tarjeta.BG18.p-5
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon9.svg' style='width: 130px')
             h5.text-center.text-white Encuestas
 
-      .col-md-3
+      .col-md-3.mb-3
         .tarjeta.BG18.p-5
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon10.svg' style='width: 130px')
             h5.text-center.text-white Entrevistas
 
-      .col-md-3
+      .col-md-3.mb-3
         .tarjeta.BG18.p-5
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon11.svg' style='width: 130px')
             h5.text-center.text-white Revisión bibliográfica
 
-      .col-md-3
+      .col-md-3.mb-3
         .tarjeta.BG18.p-5
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon12.svg' style='width: 130px')
