@@ -106,7 +106,7 @@
     figure.mb-4
       img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
     
-    p.mb-4 Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar en la siguiente tabla 5:
+    p.mb-4 Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación::
 
     .row.mx-0.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -238,7 +238,7 @@
                       img(src="@/assets/template/enlace.svg")
                     .anexo__texto
                       p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...             
-      .col-md-4
+      .col-md-4(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/tema4/img1.png')
 
@@ -382,7 +382,7 @@
         p La matriz de requisitos legales es la recopilación de todos aquellos requisitos normativos que se le exigen a la organización, de acuerdo con su actividad económica. Estas normas y obligaciones legales están moderadas por diferentes mecanismos que buscan que una empresa garantice mediante la evidencia de actividades el cumplimiento de la normatividad vigente. 
         .cajon.color-primario(style='background-color: #B1DBEA').p-3 
           p.mb-2 Por lo tanto, las matrices de requisitos legales se deben actualizar continuamente para que estén en total cumplimiento de las normativas.
-      .col-md-5
+      .col-md-5(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/tema4/img3.png')
 

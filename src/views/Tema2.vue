@@ -12,11 +12,11 @@
       .row.tarjeta.BG.justify.content-center.align-items-center.mb-5
         .col-lg-8
           p.col-md-10.p-2.cor Los componentes ambientales son todos los elementos, factores o recursos naturales que presentan interacciones entre sí, lo cual permite que se genere la vida en nuestro planeta. Estos tienen una vital influencia en el medio ambiente y por ende con cada uno de los seres vivos. Los componentes ambientales se pueden dividir en tres grandes grupos que son los factores bióticos, abióticos y socioculturales.
-        .col-lg-4.col-10.center
+        .col-lg-4.col-10.center(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img1.png' alt='AvatarTop')
 
       .row.mb-4
-        .col-md-4
+        .col-md-4(data-aos="zoom-in")
           img.p-2(src='@/assets/curso/tema2/vec1.svg' alt='AvatarTop')
         .col-md-8
           .col-md-4.mb-3
@@ -134,7 +134,7 @@
 
     .bg_grad-05.mb-5
       .row.mb-4
-        .col-md-5
+        .col-md-5(data-aos="zoom-in")
           figure.mb-4
             img(src='@/assets/curso/tema2/img3.png')
         .col-md-7
@@ -212,11 +212,11 @@
         .col-md-10.mb-4.mb-md-0
           h3 Factores sociales
           p Los factores sociales son aquellos que influyen en las actitudes, los valores y el estilo de vida de cada persona.
-        .col-md-2
+        .col-md-2(data-aos="zoom-in-up")
           figure
             img(src='@/assets/curso/tema2/vec11.svg', style='width: 128px')
       .row
-        .col-md-2.mb-4.mb-md-0
+        .col-md-2.mb-4.mb-md-0(data-aos="zoom-in-up")
           figure
             img(src='@/assets/curso/tema2/vec12.svg', style='width: 128px')
         .col-md-10
@@ -227,7 +227,7 @@
         .col-md-10.mb-4.mb-md-0
           h3 Factores socioculturales
           p Cuando se habla de un factor sociocultural se entiende como la relación que se presenta entre las comunidades y sus entornos teniendo en cuenta aspectos económicos, culturales, sociales, históricos y políticos.
-        .col-md-2
+        .col-md-2(data-aos="zoom-in-up")
           figure
             img(src='@/assets/curso/tema2/vec13.svg', style='width: 128px')
     .row

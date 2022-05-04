@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5
-      .col-md-5
+      .col-md-5(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/img1.png",)
       .col-md-7

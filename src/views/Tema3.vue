@@ -14,7 +14,7 @@
           p El Análisis de ciclo de vida (ACV) es una metodología aplicada que permite evaluar los impactos ambientales asociados a un producto dentro de todas sus etapas organizacionales. Con este análisis se pretende determinar los consumos de materias primas y de energías que están inmersas en cada proceso de producción, junto con los derivados o desechos de cada uno de ellos.<br><br/> Todas las actividades que se realicen dentro de un proceso productivo tienen impactos ambientales, ya que se consumen energías y recursos, y a su vez se emiten sustancias que generan afectaciones ambientales. 
           .cajon.color-primario(style='background-color: #B1DBEA').p-3 
             p.mb-2 Los análisis de ciclo de vida se realizan para prevenir de manera oportuna las diferentes contaminaciones que se puedan dar dentro de una organización, el ACV de un producto incluye todas las entradas/salidas de los procesos que participan a lo largo de su ciclo de vida. 
-        .col-md-5
+        .col-md-5(data-aos="zoom-in-up")
           figure
             img(src='@/assets/curso/tema3/img1.png')
 
@@ -88,7 +88,7 @@
               td Esta etapa abarca desde que el producto ya ha cumplido con su funcionalidad y hace su retorno al medio ambiente en forma de residuo. 
 
     .row
-      .col-md-5
+      .col-md-5(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema3/img9.png')
       .col-md-7

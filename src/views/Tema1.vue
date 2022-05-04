@@ -90,7 +90,7 @@
           p <b>Amenazas</b>  En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
 
       .row
-        .col-md-4
+        .col-md-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema1/img2.svg', alt='AvatarTop')
 
@@ -116,7 +116,7 @@
                 p Esta es necesaria para que cada uno de los trabajadores entienda el funcionamiento de la misma, obteniendo una cadena de mandos clara donde los empleados tengan una correcta orientación y seguridad al desarrollar sus actividades.
                 <br><br/> Es por esto que cada organización debe contar con un modelo de estructura organizacional en la cual estén totalmente definidos los cargos y las responsabilidades de cada tarea, para de esta manera eliminar las dificultades que puedan aparecer por la falta de comunicación y una planeación estratégica errónea. 
                 <br><br/> Teniendo en cuenta lo anterior, se invita a profundizar en el tema, debido a que se pueden encontrar diferentes tipos de estructura organizacional, los cuales serán descritos en la siguiente tabla 1: 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/img3.svg")
 
     .row.justify-content-center 
@@ -157,7 +157,7 @@
     
     .bg_grad-02                    
       .row.mb-4
-        .col-md-5  
+        .col-md-5(data-aos="zoom-in")  
           img(src="@/assets/curso/tema1/7.png")
         .col-md-7
           p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
@@ -251,7 +251,7 @@
               img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
             .col-lg-10.p-4
               p Para profundizar en el tema se invita a ver el video “Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2, que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
-        .col-md-5
+        .col-md-5(data-aos="zoom-in-up")
           img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
           
 </template>
