@@ -9,11 +9,11 @@
       h1 Marco normativo: estética
 
     .row
-      .col-md-7.mb-4(data-aos="fade-right")
+      .col-md-7.mb-2(data-aos="fade-right")
         .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
           p.mb-0 Toda organización, empresa o proyecto tiene ciertos componentes, los cuales en la medida que interactúan entre ellos le dan validez a los objetivos que se plantean inicialmente, ya que son elementos transformadores que procesan recursos o insumos y hacen parte de la cadena de producción para entregar un producto final que se adapte a las necesidades del cliente.  
         p Para dar claridad, en el siguiente recurso de aprendizaje se presentan los componentes de un sistema, por lo que se invita a revisar y a hacer búsquedas en internet en páginas de alta calidad académica sobre el tema para profundizar sobre el desempeño ambiental de una organización, a partir de lo que se presenta a continuación:  
-      .col-md-4.mb-4(data-aos="fade-left")  
+      .col-md-5.mb-2(data-aos="fade-left")  
         img(src='@/assets/curso/tema1/img1.svg', alt='Imagen decorativa')
     
     .bg_grad-01
@@ -76,26 +76,26 @@
       ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure.col-md-4.mb-5.center
-            img(src='@/assets/curso/tema1/6.png', alt='Texto que describa la imagen')
-        .tarjeta.bg-amarillo-claro.p-4(x="35.7%" y="30%" numero="+")
+            img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
+        .tarjeta.bg-amarillo-claro.p-4(x="35.2%" y="29.5%" numero="+")
           p <b>Fortalezas</b>  Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización. 
 
-        .tarjeta.bg-amarillo-claro.p-4(x="64.5%" y="29.8%" numero="+")
+        .tarjeta.bg-amarillo-claro.p-4(x="64.2%" y="29.5%" numero="+")
           p  <b>Debilidades</b>  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo. 
 
-        .tarjeta.bg-amarillo-claro.p-4(x="35.7%" y="71.8%" numero="+")
+        .tarjeta.bg-amarillo-claro.p-4(x="35.2%" y="71.2%" numero="+")
           p <b>Oportunidades</b>  Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación. 
 
-        .tarjeta.bg-amarillo-claro.p-4(x="64.5%" y="71.8%" numero="+")
+        .tarjeta.bg-amarillo-claro.p-4(x="64.2%" y="71.2%" numero="+")
           p <b>Amenazas</b>  En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
 
-      .row
+      .row.mb-5.justify-content-center.align-items-center
         .col-md-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema1/img2.svg', alt='AvatarTop')
 
         .col-md-8
-          .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
+          .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-0 
             p.mb-0 La manera más recomendada para hacer este análisis es por proceso, identificando en cada uno de ellos sus debilidades, oportunidades, fortalezas y amenazas, para posteriormente realizar un análisis global de la organización teniendo en cuenta lo obtenido en cada uno de los procesos del sistema productivo.
     separador
 
@@ -131,7 +131,8 @@
               th.text-white Estructura organizacional 
               td.text-white <strong>Concepto</strong> 
           table
-            caption Nota. SENA, (2022).
+            caption
+              p Nota. SENA, (2022).
             tr
               th Lineal
               td Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
@@ -166,29 +167,29 @@
           ul.lista-ul.lista-ul.lista-ul--color
             li 
               i.fas.fa-book-open
-              span Procedimientos.
+              p Procedimientos.
             li 
               i.fas.fa-book-open 
-              span Formas.
+              p Formas.
 
             li 
               i.fas.fa-book-open 
-              span Informes.
+              p Informes.
 
             li 
               i.fas.fa-book-open 
-              span Archivo.
+              p Archivo.
 
             li 
               i.fas.fa-book-open 
-              span Equipo.
+              p Equipo.
               
             li 
               i.fas.fa-book-open 
-              span Espacio.
+              p Espacio.
             li 
               i.fas.fa-book-open 
-              span Personal.
+              p Personal.
           p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
 
       p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
@@ -244,14 +245,13 @@
 
       .row.mb-4
         .col-md-7
-          p Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales. 
-          span Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
-          .row.BG09.justify.content-center.align-items-center.mb-4
+          p.mb-4 Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales.<br><br/>Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
+          .row.BG09.align-items-center.mb-5
             .col-lg-2.col-6.center
               img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
             .col-lg-10.p-4
-              p Para profundizar en el tema se invita a ver el video “Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2, que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
-        .col-md-5(data-aos="zoom-in-up")
+              p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>“Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2,</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
+        .col-md-5.mb-5(data-aos="zoom-in-up")
           img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
           
 </template>

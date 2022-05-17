@@ -16,9 +16,15 @@
   background-repeat: no-repeat
   padding: 1.5rem
 
+.slyder-a__tipo-a .slyder-a__bullets 
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
-  width: 50p
-  height: 50px
+  width: 35px
+  height: 35px
   background-color: #FED166
   border-radius: 50%
   background-image: url(../assets/curso/tema1/bi.svg)
@@ -30,12 +36,13 @@
   border-right-color: rgb(255, 255, 255)
   border-bottom-color: rgb(255, 255, 255)
   border-left-color: rgb(255, 255, 255)
-  top: 90%
+  top: 96%
   z-index: 10000
   opacity: 0.7
   box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   cursor: pointer
+
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   transform: translateY(-50%) rotate(180deg)
   left: 15px
@@ -65,6 +72,18 @@
   margin-top: 6rem
   margin-left: 3rem
   white-space: 10px
+
+table caption 
+  margin-top: 5px;
+  color: #12263F;
+  font-size: 0.8em;
+  background-color: #F6F6F6
+  padding: 0.75em 1.5em;
+  font-weight: 700;
+
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex;
+  margin-bottom: 3px;
 
 .bg-amarillo-claro
   background-color: #D3F9EE
@@ -103,10 +122,11 @@
   flex-direction: row
 
 .BG09
-  background: linear-gradient(to right,#D3F9EE,#12678316)
+  background: linear-gradient(to right,#D3F9EE,#D3F9EE)
 
 .espa
-  margin-left: -40px
+  margin-top: 40px
+  margin-left: -45px
 
 //tema2
 .BG10

@@ -21,10 +21,10 @@
           img.banner-img1(:src="globalData.imagenBannerPrincipal")
           .imagen_flotante.imagen_flotante_1: img(src="@/assets/curso/flotante01.png")
           .imagen_flotante.imagen_flotante_2: img(src="@/assets/curso/flotante02.svg")
-          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante03.svg") 
-          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante04.svg") 
-          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/flotante05.png") 
-          .imagen_flotante.imagen_flotante_6: img(src="@/assets/curso/flotante06.svg")                 
+          .imagen_flotante.imagen_flotante_3: img(src="@/assets/curso/flotante03.svg")
+          .imagen_flotante.imagen_flotante_4: img(src="@/assets/curso/flotante04.svg")
+          .imagen_flotante.imagen_flotante_5: img(src="@/assets/curso/flotante05.png")
+          .imagen_flotante.imagen_flotante_6: img(src="@/assets/curso/flotante06.svg")
           
 </template>
 
