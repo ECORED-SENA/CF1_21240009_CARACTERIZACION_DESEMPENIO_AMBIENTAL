@@ -107,14 +107,14 @@
     p.mb-4 Para profundizar en el tema, se invita a consultar las dos normas ISO mencionadas anteriormente, con el fin de reforzar su aprendizaje:
 
     .row.mb-4
-      .tx3.col-5
+      .tx3.col-md-5.col-12
         a.anexo(style='background-color:#F4F9FF')(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/enlace.svg")
           .anexo__texto
             p <b>Enlace web.</b> SISTEMAS DE GESTIÓN AMBIENTAL REQUISITOS CON ORIENTACIÓN PARA SU USO
 
-      .tx3.col-5
+      .tx3.col-md-5.col-12
         a.anexo(style='background-color:#F4F9FF')(href="https://sena-primo.hosted.exlibrisgroup.com/permalink/f/156au80/sena_aleph000106729" target="_blank")
           .anexo__icono
             img(src="@/assets/template/enlace.svg")

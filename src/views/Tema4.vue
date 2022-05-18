@@ -57,7 +57,7 @@
               td Son todas aquellas normas que mediante mediciones pretenden reducir las consecuencias negativas que trae consigo las radiaciones. 
               td Se tiene en cuenta el tratamiento y transporte que tienen los residuos radiactivos. 
     
-    p.mb-5.text-center En Colombia existen gran cantidad de normas ambientales como las que se describen en la siguiente tabla 4:
+    p.mb-5.text-center <b>En Colombia existen gran cantidad de normas ambientales como las que se describen en la siguiente tabla 4:</b>
     
     .row.justify-content-center 
       .col-md-11
@@ -118,7 +118,10 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para el cambio climático  
                 p.text-center.text-white Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos.  
-                
+                a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+                  span Minambiente
+                  i.fas.fa-link 
+
             .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
               img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
               h3.text-center Convención para el cambio climático 
@@ -138,7 +141,10 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para la protección de la biodiversidad 
                 p.text-center.text-white Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-                 
+                a.boton.color-acento-botones.mx-3(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+                  span cancilleria
+                  i.fas.fa-link 
+
             .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
               img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
               h3.text-center Convención para la protección de la biodiversidad 
@@ -157,7 +163,10 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención de Basilea sobre residuos peligrosos (1989). 
                 p.text-center.text-white Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-                 
+                a.boton.color-acento-botones.mx-3(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+                  span Convenio
+                  i.fas.fa-link 
+
             .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
               img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
               h3.text-center Convención de Basilea sobre residuos peligrosos (1989). 
@@ -165,7 +174,6 @@
               a.boton.color-acento-botones.mx-3(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                 span Convenio
                 i.fas.fa-link 
-
 
       .col-sm-6.col-xl-3.mb-5.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -176,6 +184,9 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
                 p.text-center.text-white Ratificado por Colombia por medio de la Ley de 1990.
+                a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+                  span Minambiente
+                  i.fas.fa-link 
                  
             .tarjeta-flip__contenido.fond_3.p-4.p-xl-5
               img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
@@ -185,114 +196,119 @@
                 span Minambiente
                 i.fas.fa-link 
 
-    .row.mb-5
-      .col-md-8
-        figure.mb-4
-          img(src='@/assets/curso/tema4/title2.svg' style='width: 340px')
-        P Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales, en la tabla 6 se pueden observar: 
-    
-        .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
-          LineaTiempoC.color-primario
-            .row.justify-content-center(titulo="Ley 99 de 1993")
-              .col-11
-                p Por la cual se crea el Ministerio del Medio Ambiente.
-                a.anexo(style='background-color:#F4F9FF')(href="http://www.humboldt.org.co/images/documentos/pdf/Normativo/1993-12-22-ley-99-crea-el-sina-y-mma.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se...
+    .bg_grad-08
+      .row.mb-5
+        .col-md-8
+          figure.mb-4
+            img(src='@/assets/curso/tema4/title2.svg' style='width: 340px')
+          P Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales, en la tabla 6 se pueden observar: 
 
-            .row.justify-content-center(titulo="Ley 23 de 1973")
-              .col-11
-                p En la cual se dictan los principios sobre prevención de los contaminantes del agua, suelo y aire.
-                a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9018" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Reglamentada Parcialmente por el Decreto Nacional 704 de 1986...
+          .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
+            LineaTiempoC.color-primario
+              .row.justify-content-center(titulo="Ley 99 de 1993")
+                .col-11
+                  p Por la cual se crea el Ministerio del Medio Ambiente.
+                  a.anexo(style='background-color:#F4F9FF')(href="http://www.humboldt.org.co/images/documentos/pdf/Normativo/1993-12-22-ley-99-crea-el-sina-y-mma.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Por la cual se crea el MINISTERIO DEL MEDIO AMBIENTE, se...
+
+              .row.justify-content-center(titulo="Ley 23 de 1973")
+                .col-11
+                  p En la cual se dictan los principios sobre prevención de los contaminantes del agua, suelo y aire.
+                  a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9018" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Reglamentada Parcialmente por el Decreto Nacional 704 de 1986...
 
 
-            .row.justify-content-center(titulo="Ley 388 de 1997")
-              .col-11
-                p Se define el ordenamiento territorial municipal y distrital.
-                a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=339" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Reglamentada por los Decretos Nacionales 150 y 507 de 1999; 932...
-              
-            .row.justify-content-center(titulo="Ley 491 de 1999")
-              .col-11
-                p Se modifica el código penal y se establecen delitos contra los recursos naturales y el medio ambiente.
-                a.anexo(style='background-color:#F4F9FF')(href="http://www.desarrolloeconomico.gov.co/sites/default/files/marco-legal/Ley-491-1999.pdf" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Diario Oficial No. 43.477, de 15 de enero de 1999 Por la cual se...
+              .row.justify-content-center(titulo="Ley 388 de 1997")
+                .col-11
+                  p Se define el ordenamiento territorial municipal y distrital.
+                  a.anexo(style='background-color:#F4F9FF')(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=339" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Reglamentada por los Decretos Nacionales 150 y 507 de 1999; 932...
+                
+              .row.justify-content-center(titulo="Ley 491 de 1999")
+                .col-11
+                  p Se modifica el código penal y se establecen delitos contra los recursos naturales y el medio ambiente.
+                  a.anexo(style='background-color:#F4F9FF')(href="http://www.desarrolloeconomico.gov.co/sites/default/files/marco-legal/Ley-491-1999.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Diario Oficial No. 43.477, de 15 de enero de 1999 Por la cual se...
 
-            .row.justify-content-center(titulo="Ley 29 de 1992")
-              .col-11
-                p Por medio de la cual se adopta el "Protocolo de Montreal relativo a las sustancias agotadoras de la capa de ozono”.
-                a.anexo(style='background-color:#F4F9FF')(href="http://www.ideam.gov.co/documents/24024/26915/C_Users_JGomez_Documents_ley_29_1992.pdf/7258708f-515d-4021-8fff-99e8cba0e0f6" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/enlace.svg")
-                    .anexo__texto
-                      p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...             
-      .col-md-4(data-aos="zoom-in-up")
-        figure
-          img(src='@/assets/curso/tema4/img1.png')
+              .row.justify-content-center(titulo="Ley 29 de 1992")
+                .col-11
+                  p Por medio de la cual se adopta el "Protocolo de Montreal relativo a las sustancias agotadoras de la capa de ozono”.
+                  a.anexo(style='background-color:#F4F9FF')(href="http://www.ideam.gov.co/documents/24024/26915/C_Users_JGomez_Documents_ley_29_1992.pdf/7258708f-515d-4021-8fff-99e8cba0e0f6" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/enlace.svg")
+                      .anexo__texto
+                        p <b>Enlace web.</b> Protocolo de Montreal relativo a las sustancias agotadoras de la...             
+        .col-md-4(data-aos="zoom-in-up")
+          figure
+            img(src='@/assets/curso/tema4/img1.png')
 
-    .row
-      .col-md-5.py-5.my-5
-        figure.mb-4
-          img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
-        p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
-      
-      .col-md-7   
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
-          .tarjeta.color-secundario.fondos.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/tema4/icon5.svg')
-            h2.text-center Decreto 1791
-            p.text-center.mb-0 Por medio del cual se establece el régimen de aprovechamiento forestal.
-            br
-            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1296" target="_blank")
-              span Funcionpublica
-              i.fas.fa-link
+      .row
+        .col-md-5.py-5.my-5
+          figure.mb-4
+            img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
+          p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
+        
+        .col-md-7   
+          SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
+            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
+              .row.justify-content-center.mb-3
+                .col-md-5.mb-5
+                  img(src='@/assets/curso/tema4/icon5.svg')
+                .col-0
+                  h4.text-center Decreto 1791
+                  p.text-center Por medio del cual se establece el régimen de aprovechamiento forestal.
+                  span
+                  a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1296" target="_blank")
+                    span Funcionpublica
+                    i.fas.fa-link
 
-          .tarjeta.color-secundario.fondos.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/tema4/icon6.svg')
-            h2.text-center Decreto 870 de 2017
-            p.text-center.mb-0 Se establece el pago por servicios ambientales.
-            br
-            a.boton.color-acento-botones.mx-3(href="http://es.presidencia.gov.co/normativa/normativa/DECRETO%20870%20DEL%2025%20DE%20MAYO%20DE%202017.pdf" target="_blank")
-              span Decreto
-              i.fas.fa-file
+            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
+              .row.justify-content-center.mb-3
+                .col-md-5.mb-5
+                  img(src='@/assets/curso/tema4/icon6.svg')
+                .col-0
+                  h4.text-center Decreto 870 de 2017
+                  p.text-center Se establece el pago por servicios ambientales.
+                  span
+                  a.boton.color-acento-botones(href="http://es.presidencia.gov.co/normativa/normativa/DECRETO%20870%20DEL%2025%20DE%20MAYO%20DE%202017.pdf" target="_blank")
+                    span Decreto
+                    i.fas.fa-file
 
-          .tarjeta.color-secundario.fondos.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/tema4/icon7.svg')
-            h2.text-center Decreto 2820 de 2010
-            p.text-center.mb-0 Se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales.
-            br
-            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=45524" target="_blank")
-              span Funcionpublica
-              i.fas.fa-link
+            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
+              .row.justify-content-center.mb-3
+                .col-md-5.mb-5
+                  img(src='@/assets/curso/tema4/icon7.svg')
+                .col-0
+                  h4.text-center Decreto 2820 de 2010
+                  p.text-center Se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales.
+                  span
+                  a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=45524" target="_blank")
+                    span Funcionpublica
+                    i.fas.fa-link
 
-          .tarjeta.color-secundario.fondos.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/tema4/icon8.svg')
-            h2.text-center Decreto 283
-            p.text-center.mb-0 Hidrocarburos - Por el cual se reglamenta el almacenamiento, manejo, transporte, distribución de combustibles líquidos derivados del petróleo y el transporte por carrotanques de petróleo crudo.
-            br
-            a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8807" target="_blank")
-              span Funcionpublica
-              i.fas.fa-link
+            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
+              .row.justify-content-center.mb-3
+                .col-md-5.mb-5
+                  img(src='@/assets/curso/tema4/icon8.svg')
+                .col-0
+                  h4.text-center Decreto 283
+                  p.text-center Hidrocarburos - Por el cual se reglamenta el almacenamiento, manejo, transporte, distribución de combustibles líquidos derivados del petróleo y el transporte por carrotanques de petróleo crudo.
+                  br
+                  a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8807" target="_blank")
+                    span Funcionpublica
+                    i.fas.fa-link
     
     .bg_grad-07
       figure.mb-4
@@ -380,7 +396,7 @@
     .row.mb-5
       .col-md-7
         p La matriz de requisitos legales es la recopilación de todos aquellos requisitos normativos que se le exigen a la organización, de acuerdo con su actividad económica. Estas normas y obligaciones legales están moderadas por diferentes mecanismos que buscan que una empresa garantice mediante la evidencia de actividades el cumplimiento de la normatividad vigente. 
-        .cajon.color-primario(style='background-color: #B1DBEA').p-3 
+        .cajon.color-primario.mb-3(style='background-color: #B1DBEA').p-3 
           p.mb-2 Por lo tanto, las matrices de requisitos legales se deben actualizar continuamente para que estén en total cumplimiento de las normativas.
       .col-md-5(data-aos="zoom-in-up")
         figure
@@ -398,29 +414,29 @@
     p.mb-4 Existen diferentes maneras de recolectar información dentro de una investigación, en la mayoría de casos solo depende de la pregunta de investigación que se formule o la información que se desee obtener. Algunos de estos métodos incluyen:
 
     .row.justify-content-center.mb-5
-      .col-md-3.mb-3
-        .tarjeta.BG18.p-5
+      .col-md-3
+        .tarjeta.BG18.p-5.mb-3.align-items-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon9.svg' style='width: 130px')
-            h5.text-center.text-white Encuestas
+            h5.text-center Encuestas
 
-      .col-md-3.mb-3
-        .tarjeta.BG18.p-5
+      .col-md-3
+        .tarjeta.BG18.p-5.mb-3.align-items-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon10.svg' style='width: 130px')
-            h5.text-center.text-white Entrevistas
+            h5.text-center Entrevistas
 
-      .col-md-3.mb-3
-        .tarjeta.BG18.p-5
+      .col-md-3
+        .tarjeta.BG18.p-5.mb-3.align-items-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon11.svg' style='width: 130px')
-            h5.text-center.text-white Revisión bibliográfica
+            h5.text-center Revisión bibliográfica
 
-      .col-md-3.mb-3
-        .tarjeta.BG18.p-5
+      .col-md-3
+        .tarjeta.BG18.p-5.mb-3.align-items-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon12.svg' style='width: 130px')
-            h5.text-center.text-white Otras observación, registro, análisis
+            h5.text-center Otras observación, registro, análisis
 
     .row.mb-5
       .col-md-7
