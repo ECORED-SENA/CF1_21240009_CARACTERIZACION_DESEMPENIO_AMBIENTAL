@@ -1,1 +1,1 @@
-module.exports = 'Caracterización del desempeño ambiental de la organización'
+module.exports = 'Contexto organizacional'

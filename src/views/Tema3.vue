@@ -62,30 +62,33 @@
           h5 Tabla 2
           span  Etapas ciclo de vida.
 
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header.color-acento-contenido
-            tr
-              th.text-white Etapas
-              td.text-white <strong>Concepto</strong> 
-          table 
-            tr
-              th Adquisición de materias primas
-              td En esta etapa se incluyen las diferentes actividades que se adelantan para la obtención de las materias primas, desde la extracción hasta el transporte de las mismas, además se debe tener en cuenta las diferentes fuentes de energía utilizadas para este proceso.
-            tr
-              th Proceso y fabricación
-              td Es en esta etapa donde están inmersas todas las actividades que se realicen para la transformación de la materia prima en el producto final.
-            tr
-              th Distribución y transporte
-              td Acá se especifican todos los traslados que tienen que ver con la entrega del producto finalizado.
-            tr
-              th Uso, reutilización y mantenimiento
-              td Es necesario establecer la vida útil del producto junto con sus respectivos empaques.
-            tr
-              th Reciclaje
-              td Hace referencia al producto una vez está en las manos del cliente y debe establecer la manera de reciclarlo o utilizarlo de ser posible. 
-            tr
-              th Gestión de residuos
-              td Esta etapa abarca desde que el producto ya ha cumplido con su funcionalidad y hace su retorno al medio ambiente en forma de residuo. 
+        .tabla-editada2.mb-5
+          table
+            caption
+              p Nota. SENA, (2022).
+            thead
+              tr.text-center
+                th.text-center Etapas
+                th.text-center <strong>Concepto</strong>
+            tbody
+              tr
+                td.text-center Adquisición de materias primas
+                td En esta etapa se incluyen las diferentes actividades que se adelantan para la obtención de las materias primas, desde la extracción hasta el transporte de las mismas, además se debe tener en cuenta las diferentes fuentes de energía utilizadas para este proceso.
+              tr
+                td.text-center Proceso y fabricación
+                td Es en esta etapa donde están inmersas todas las actividades que se realicen para la transformación de la materia prima en el producto final.
+              tr
+                td.text-center Distribución y transporte
+                td Acá se especifican todos los traslados que tienen que ver con la entrega del producto finalizado.
+              tr
+                td.text-center Uso, reutilización y mantenimiento
+                td Es necesario establecer la vida útil del producto junto con sus respectivos empaques.
+              tr
+                td.text-center Reciclaje
+                td Hace referencia al producto una vez está en las manos del cliente y debe establecer la manera de reciclarlo o utilizarlo de ser posible. 
+              tr
+                td.text-center Gestión de residuos
+                td Esta etapa abarca desde que el producto ya ha cumplido con su funcionalidad y hace su retorno al medio ambiente en forma de residuo. 
 
     .row
       .col-md-5(data-aos="zoom-in")

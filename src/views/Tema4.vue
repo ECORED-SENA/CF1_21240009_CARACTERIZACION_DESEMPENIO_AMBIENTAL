@@ -21,42 +21,45 @@
           h5 Tabla 3
           span  Clasificación Normatividad Ambiental
 
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header.color-acento-contenido.center
-            tr
-              th.text-white <strong>Clasificación</strong> 
-              th.text-white <strong>Concepto</strong> 
-              td.text-white <strong>Factores</strong> 
-          table 
-            tr
-              td Protección del ambiente.
-              td Son todas aquellas normas que tienen como propósito la prevención, reducción y eliminación de contaminaciones o afectaciones al medio ambiente. 
-              td Se tienen en cuenta el cambio de procesos para prevenir emisiones atmosféricas y a su vez controles y mediciones en laboratorios especializados.
-            tr
-              td Gestión de aguas residuales
-              td Estas normas están encaminadas en la prevención de la contaminación de aguas superficiales. 
-              td Las redes de transporte de aguas y el tratamiento de sus residuos. 
-            tr
-              td Gestión de residuos
-              td Se refiere a las actividades que tienen como objetivo prevenir la generación de residuos y así poder disminuir las afectaciones que tiene al ambiente. 
-              td La recolección y transporte de los residuos es clave en este proceso, así mismo, lo es el tratamiento y eliminación de residuos peligrosos. 
-            tr
-              td Protección y recuperación de suelos, aguas subterráneas y aguas superficiales
-              td Son todas aquellas medidas para prevenir las filtraciones de contaminantes en los suelos y cuerpos de agua. 
-              td Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
-            tr
-              td Atenuación de ruidos y vibraciones
-              td Son las medidas que tienden a controlar los ruidos y vibraciones en su mayoría generadas por procesos industriales.  
-              td Se realizan modificaciones preventivas de los procesos en la fuente, como lo son instalaciones de sistemas anti ruido y vibraciones. 
-            tr
-              td Protección de la biodiversidad y de los paisajes
-              td Se refiere a aquellas actividades destinadas a la conservación y rehabilitación de especies de fauna y flora. 
-              td Es la protección y rehabilitación de hábitat y especies que han sido intervenidos. 
-            tr
-              td Protección contra las radiaciones.
-              td Son todas aquellas normas que mediante mediciones pretenden reducir las consecuencias negativas que trae consigo las radiaciones. 
-              td Se tiene en cuenta el tratamiento y transporte que tienen los residuos radiactivos. 
-    
+        .tabla-editada3.mb-5
+          table
+            caption
+              p Nota. SENA, (2022).
+            thead
+              tr.text-center
+                th.text-center <strong>Clasificación</strong>
+                th.text-center <strong>Concepto</strong>
+                th.text-center <strong>Factores</strong> 
+            tbody
+              tr
+                td.text-center Protección del ambiente.
+                td Son todas aquellas normas que tienen como propósito la prevención, reducción y eliminación de contaminaciones o afectaciones al medio ambiente. 
+                td Se tienen en cuenta el cambio de procesos para prevenir emisiones atmosféricas y a su vez controles y mediciones en laboratorios especializados.
+              tr
+                td.text-center Gestión de aguas residuales
+                td Estas normas están encaminadas en la prevención de la contaminación de aguas superficiales. 
+                td Las redes de transporte de aguas y el tratamiento de sus residuos.              
+              tr
+                td.text-center Gestión de residuos
+                td Se refiere a las actividades que tienen como objetivo prevenir la generación de residuos y así poder disminuir las afectaciones que tiene al ambiente. 
+                td La recolección y transporte de los residuos es clave en este proceso, así mismo, lo es el tratamiento y eliminación de residuos peligrosos. 
+              tr
+                td Protección y recuperación de suelos, aguas subterráneas y aguas superficiales
+                td Son todas aquellas medidas para prevenir las filtraciones de contaminantes en los suelos y cuerpos de agua. 
+                td Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
+              tr
+                td.text-center Atenuación de ruidos y vibraciones
+                td Son las medidas que tienden a controlar los ruidos y vibraciones en su mayoría generadas por procesos industriales.  
+                td Se realizan modificaciones preventivas de los procesos en la fuente, como lo son instalaciones de sistemas anti ruido y vibraciones. 
+              tr
+                td.text-center Protección de la biodiversidad y de los paisajes
+                td Se refiere a aquellas actividades destinadas a la conservación y rehabilitación de especies de fauna y flora. 
+                td Es la protección y rehabilitación de hábitat y especies que han sido intervenidos. 
+              tr
+                td.text-center Protección contra las radiaciones.
+                td Son todas aquellas normas que mediante mediciones pretenden reducir las consecuencias negativas que trae consigo las radiaciones. 
+                td Se tiene en cuenta el tratamiento y transporte que tienen los residuos radiactivos. 
+          
     p.mb-5.text-center <b>En Colombia existen gran cantidad de normas ambientales como las que se describen en la siguiente tabla 4:</b>
     
     .row.justify-content-center 
@@ -65,44 +68,47 @@
           h5 Tabla 4
           span  Normas ambientales en Colombia.
 
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header.color-acento-contenido.center
-            tr
-              th.text-white <strong>Normas Generales</strong> 
-              th.text-white <strong>Concepto</strong> 
-              td.text-white <strong>Enlaces</strong> 
-          table 
-            tr
-              th Constitución Nacional
-              td.mb-5 Principios principales que expone la constitución:
-                ul.lista-ul.lista-ul.lista-ul--color.mb-5
-                  li 
-                    i.fas.fa-circle
-                    span Derecho a un ambiente sano.
-                  li 
-                    i.fas.fa-circle
-                    span El medio ambiente como patrimonio cultural. 
-                  li 
-                    i.fas.fa-circle
-                    span Desarrollo sostenible.
-              td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
-            tr
-              th Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
-              td Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
-              td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551
-            tr
-              th Ley sanitaria - Ley 09 de 1979.
-              td Su principal objetivo es la conservación de la salud y del bienestar humano.
-              td https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
-            tr
-              th Ley 99 de 1993.
-              td Se crea el Ministerio de medio ambiente. 
-              td https://www.icbf.gov.co/cargues/avance/docs/ley_0099_1993.htm
-            tr
-              th Código minero - Ley 685 del 2001.
-              td Se expide el código de minas. 
-              td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
-            
+        .tabla-editada4.mb-5
+          table
+            caption
+              p Nota. SENA, (2022).
+            thead
+              tr.text-center
+                th.text-center <strong>Normas Generales</strong> 
+                th.text-center <strong>Concepto</strong> 
+                th.text-center <strong>Enlaces</strong> 
+            tbody
+              tr
+                td.text-center Constitución Nacional
+                td Principios principales que expone la constitución:<br><br/>
+                  ul.lista-ul.lista-ul.lista-ul--color.mb-5
+                    li 
+                      i.fas.fa-circle
+                      span Derecho a un ambiente sano.
+                    li 
+                      i.fas.fa-circle
+                      span El medio ambiente como patrimonio cultural. 
+                    li 
+                      i.fas.fa-circle
+                      span Desarrollo sostenible.
+                td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
+              tr
+                td Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
+                td Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
+                td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551              
+              tr
+                td Ley sanitaria - Ley 09 de 1979.
+                td Su principal objetivo es la conservación de la salud y del bienestar humano.
+                td https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
+              tr
+                td Ley 99 de 1993.
+                td Se crea el Ministerio de medio ambiente. 
+                td https://www.icbf.gov.co/cargues/avance/docs/ley_0099_1993.htm
+              tr
+                td Código minero - Ley 685 del 2001.
+                td Se expide el código de minas. 
+                td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
+              
     figure.mb-4
       img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
     
@@ -118,7 +124,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para el cambio climático  
                 p.text-center.text-white Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos.  
-                a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
 
@@ -126,7 +132,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
               h3.text-center Convención para el cambio climático 
               p.text-center.mt-2 Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos. 
-              a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 
@@ -141,7 +147,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para la protección de la biodiversidad 
                 p.text-center.text-white Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-                a.boton.color-acento-botones.mx-3(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                   span cancilleria
                   i.fas.fa-link 
 
@@ -149,7 +155,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
               h3.text-center Convención para la protección de la biodiversidad 
               p.text-center.mt-3 Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-              a.boton.color-acento-botones.mx-3(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                 span cancilleria
                 i.fas.fa-link 
 
@@ -163,7 +169,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención de Basilea sobre residuos peligrosos (1989). 
                 p.text-center.text-white Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-                a.boton.color-acento-botones.mx-3(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+                a.boton.color-acento-botones.mx-3.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                   span Convenio
                   i.fas.fa-link 
 
@@ -171,7 +177,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
               h3.text-center Convención de Basilea sobre residuos peligrosos (1989). 
               p.text-center.mt-3 Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-              a.boton.color-acento-botones.mx-3(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+              a.boton.color-acento-botones.mx-3.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                 span Convenio
                 i.fas.fa-link 
 
@@ -184,7 +190,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
                 p.text-center.text-white Ratificado por Colombia por medio de la Ley de 1990.
-                a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
                  
@@ -192,7 +198,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
               h3.text-center Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
               p.text-center.mt-3 Ratificado por Colombia por medio de la Ley de 1990.
-              a.boton.color-acento-botones.mx-3(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 
@@ -255,40 +261,40 @@
             img(src='@/assets/curso/tema4/img1.png')
 
       .row
-        .col-md-5.py-5.my-5
-          figure.mb-4
+        .col-md-5.justify-content-center.centrado
+          figure.mb-5
             img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
           p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
         
         .col-md-7   
           SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
-            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
-              .row.justify-content-center.mb-3
-                .col-md-5.mb-5
+            .tarjeta.color-secundario.fondos.p-4.h-100.alinear.p-xl-5
+              .row.mb-3.justify-content-center
+                .col-md-6.col-6.mb-5
                   img(src='@/assets/curso/tema4/icon5.svg')
-                .col-0
+                .col-md-12
                   h4.text-center Decreto 1791
                   p.text-center Por medio del cual se establece el régimen de aprovechamiento forestal.
                   span
-                  a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1296" target="_blank")
+                  a.boton.color-acento-botones.mx-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1296" target="_blank")
                     span Funcionpublica
                     i.fas.fa-link
 
-            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
-              .row.justify-content-center.mb-3
-                .col-md-5.mb-5
+            .tarjeta.color-secundario.fondos.p-4.h-100.alinear.p-xl-5
+              .row.mb-3.justify-content-center
+                .col-md-5.col-6.mb-5
                   img(src='@/assets/curso/tema4/icon6.svg')
                 .col-0
                   h4.text-center Decreto 870 de 2017
                   p.text-center Se establece el pago por servicios ambientales.
                   span
-                  a.boton.color-acento-botones(href="http://es.presidencia.gov.co/normativa/normativa/DECRETO%20870%20DEL%2025%20DE%20MAYO%20DE%202017.pdf" target="_blank")
+                  a.boton.color-acento-botones.mx-3(href="http://es.presidencia.gov.co/normativa/normativa/DECRETO%20870%20DEL%2025%20DE%20MAYO%20DE%202017.pdf" target="_blank")
                     span Decreto
                     i.fas.fa-file
 
-            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
-              .row.justify-content-center.mb-3
-                .col-md-5.mb-5
+            .tarjeta.color-secundario.fondos.p-4.h-100.alinear.p-xl-5
+              .row.mb-3.justify-content-center
+                .col-md-5.col-6.mb-5
                   img(src='@/assets/curso/tema4/icon7.svg')
                 .col-0
                   h4.text-center Decreto 2820 de 2010
@@ -298,9 +304,9 @@
                     span Funcionpublica
                     i.fas.fa-link
 
-            .tarjeta.color-secundario.fondos.p-4.h-100.justify-content-center.align-items-center
-              .row.justify-content-center.mb-3
-                .col-md-5.mb-5
+            .tarjeta.color-secundario.fondos.p-4.h-100.alinear.p-xl-5
+              .row.mb-3.justify-content-center
+                .col-md-5.col-6.mb-5
                   img(src='@/assets/curso/tema4/icon8.svg')
                 .col-0
                   h4.text-center Decreto 283
@@ -404,7 +410,7 @@
 
     p.mb-5.text-center <b>Estos son algunos de los principales aspectos que se debe tener en cuenta en la matriz de requisitos legales:</b>   
 
-    figure.col-9.center.mb-4
+    figure.col-md-9.col-12.center.mb-4
       img(src='@/assets/curso/tema4/grafica.svg')
     separador
 

@@ -21,7 +21,7 @@
         SlyderA
           .row
             .col-lg-7.text-white
-              h5.aling-1 El medio ambiente:
+              h5.aling-2 El medio ambiente:
                 p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo. 
             .col-lg-5.col-7.center
               figure
@@ -45,8 +45,8 @@
 
           .row
             .col-lg-7.text-white
-              h5.aling-1 Salidas:
-                p.mt-3 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada. 
+              h5.aling-2 Salidas:
+                p.mt-2 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada. 
             .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -108,7 +108,7 @@
         .row.justify-content-center
           .col-lg-2.col-1
             img.celular(src="@/assets/curso/tema1/icon1.svg")
-          .cajon.color-acento-contenido(style='background-color: #B1DBEA').col-lg-10.col-11.mb-3
+          .cajon.color-acento-contenido(style='background-color: #B1DBEA').col-lg-10.col-12.mb-3
             p.m-2 Una estructura organizacional que esté bien planificada y constituida servirá efectivamente para reforzar los objetivos y hacer que los diferentes departamentos de la organización crezcan en la misma dirección.
         .row
           .col-md-12
@@ -126,32 +126,34 @@
           h5 Tabla 1
           span  Estructuras organizacionales
 
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header.color-acento-contenido
-            tr
-              th.text-white Estructura organizacional 
-              td.text-white <strong>Concepto</strong> 
+        .tabla-editada1.mb-5
           table
             caption
               p Nota. SENA, (2022).
-            tr
-              th Lineal
-              td Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
-            tr
-              th Horizontal
-              td En esta estructura los mandos de autoridad disminuyen, por lo que las personas que están ocupando los niveles más altos deberán estar en contacto directo con los empleados que se desempeñen en la primera línea.
-            tr
-              th Funcional
-              td De esta manera se realiza una división de las tareas de la organización por medio de unidades especializadas, donde cada una de ellas cuenta con un jefe independiente, el cual es el encargado de coordinar su equipo de trabajo y a su vez permite una correcta comunicación con los demás equipos especializados.
-            tr
-              th Divisional
-              td En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
-            tr
-              th Matricial
-              td La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
-            tr
-              th Central
-              td Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
+            thead
+              tr.text-center
+                th.text-center Estructura organizacional
+                th.text-center Norma
+            tbody
+              tr
+                td.text-center Lineal
+                td Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
+              tr
+                td.text-center Horizontal
+                td En esta estructura los mandos de autoridad disminuyen, por lo que las personas que están ocupando los niveles más altos deberán estar en contacto directo con los empleados que se desempeñen en la primera línea.
+              tr
+                td.text-center Funcional
+                td De esta manera se realiza una división de las tareas de la organización por medio de unidades especializadas, donde cada una de ellas cuenta con un jefe independiente, el cual es el encargado de coordinar su equipo de trabajo y a su vez permite una correcta comunicación con los demás equipos especializados.
+              tr
+                td.text-center Divisional
+                td En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
+              tr
+                td.text-center Matricial
+                td La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
+              tr
+                td.text-center Central
+                td Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
+              
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido
@@ -168,29 +170,29 @@
           ul.lista-ul.lista-ul.lista-ul--color
             li 
               i.fas.fa-book-open
-              p Procedimientos.
+              span Procedimientos.
             li 
               i.fas.fa-book-open 
-              p Formas.
+              span Formas.
 
             li 
               i.fas.fa-book-open 
-              p Informes.
+              span Informes.
 
             li 
               i.fas.fa-book-open 
-              p Archivo.
+              span Archivo.
 
             li 
               i.fas.fa-book-open 
-              p Equipo.
+              span Equipo.
               
             li 
               i.fas.fa-book-open 
-              p Espacio.
+              span Espacio.
             li 
               i.fas.fa-book-open 
-              p Personal.
+              span Personal.
           p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
 
       p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
@@ -252,7 +254,7 @@
               img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
             .col-lg-10.p-4
               p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>“Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2,</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
-        .col-md-5.mb-5(data-aos="zoom-in-up")
+        .col-md-5.mb-5.col-12(data-aos="zoom-in-up")
           img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
           
 </template>

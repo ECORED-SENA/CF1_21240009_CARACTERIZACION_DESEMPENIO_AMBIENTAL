@@ -10,6 +10,85 @@
 .izq
   margin-left: -12px
 
+.tabla-editada1
+  table
+    width: auto
+    white-space:
+  thead
+    background-color: #20BDFC
+    color: #fff
+  tbody
+  td:nth-child(1)
+    white-space: nowrap
+    width: 10%
+  td:nth-child(2)
+    width: 30%
+  @media screen and (max-width: 1400px) 
+    table 
+      display: block;
+      overflow-x: auto;
+       
+
+
+.tabla-editada2
+  table
+    width: auto
+    white-space:
+  thead
+    background-color: #20BDFC
+    color: #fff
+  tbody
+  td:nth-child(1)
+    white-space: nowrap
+    width: 20%
+  td:nth-child(2)
+    width: 30%
+  @media screen and (max-width: 1400px) 
+    table 
+      display: block;
+      overflow-x: auto;
+
+.tabla-editada3
+  table
+    width: auto
+    white-space:
+  thead
+    background-color: #20BDFC
+    color: #fff
+  tbody
+  th:nth-child(1)
+    white-space: nowrap
+    width: 25%
+  td:nth-child(2)
+    width: 40%
+  @media screen and (max-width: 1400px) 
+    table 
+      display: block;
+      overflow-x: auto;
+
+.tabla-editada4
+  table
+    width: auto
+    white-space:
+  thead
+    background-color: #20BDFC
+    color: #fff
+  tbody
+  th:nth-child(1)
+    white-space: nowrap
+    width: 30%
+  td:nth-child(2)
+    width: 80%
+  @media screen and (max-width: 1400px) 
+    table 
+      display: block;
+      overflow-x: auto;
+
+.centrado
+  position: relative
+  margin-top: 100px
+  @media screen and (max-width: 1400px)
+    margin-top: 0px
 .fondo-slyder
   background-image: url('../assets/curso/tema1/fondo_slyder.svg')
   background-size: cover
@@ -18,7 +97,7 @@
 
 .slyder-a__tipo-a .slyder-a__bullets 
     position: absolute;
-    bottom: 5px;
+    bottom: -7px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -29,9 +108,30 @@
   border-radius: 50%
   background-image: url(../assets/curso/tema1/bi.svg)
   background-repeat: no-repeat
-  background-size: 16px 24px
+  background-size: 20px 20px
   background-position: center
-  border: 1px solid #ffffff
+  border: 1px solid #FED166
+  border-top-color: #FED166
+  border-right-color: #FED166
+  border-bottom-color: #FED166
+  border-left-color: #FED166
+  top: 96%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
+.slyder-a__btn--atrs 
+  width: 35px
+  height: 35px
+  background-color: #DEE4F0
+  border-radius: 50%
+  background-image: url(../assets/curso/tema1/bi2.svg)
+  background-repeat: no-repeat
+  background-size: 20px 20px
+  background-position: center
+  border: 1px solid #DEE4F0
   border-top-color: rgb(255, 255, 255)
   border-right-color: rgb(255, 255, 255)
   border-bottom-color: rgb(255, 255, 255)
@@ -51,8 +151,13 @@
   right: 15px
 .slyder-a__bullets__item--active 
   background-color: #25E0AC
-  border-color: #727997
+  border-color: #25E0AC
   opacity: 1
+
+.slyder-a__bullets__item 
+  width: 13px;
+  height: 13px;
+
 .modal-a__content 
   position: fixed
   top: 50%
@@ -72,6 +177,12 @@
   margin-top: 6rem
   margin-left: 3rem
   white-space: 10px
+
+.aling-2
+  text-align: left  !important
+  margin-top: 2rem
+  margin-left: 2rem
+  white-space: 5px
 
 table caption 
   margin-top: 5px;
@@ -130,6 +241,9 @@ table caption
 .espa
   margin-top: 40px
   margin-left: -45px
+  @media screen and (max-width: 1450px)
+    margin-top: 0px
+    margin-left: 0px
 
 //tema2
 .BG10
@@ -483,6 +597,12 @@ table caption
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 4.5rem ))
+    @media screen and (max-width: 999px)
+      position: absolute
+      padding: 1.2rem 1.2rem 1.2rem 1.2rem
+      bottom: 0    
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(calc( 100% - 4.5rem ))
 
   &.clr--01
     .crd_hover_txt--font
@@ -588,14 +708,9 @@ table caption
   font-size: 2rem;
   color: #126783
 
-.boton, .boton--sm 
-  background-color: #FED166;
-  color: #000;
-  padding: 10px 15px;
-  border-radius: 5px;
+.alinear
+  display: flex;
   align-items: center;
-  transform: scale(1);
-  display: flex
   justify-content: center
 
 

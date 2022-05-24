@@ -49,21 +49,21 @@
           .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
             .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
               figure.mb-4
-                img(src="@/assets/curso/tema2/vec3.svg", alt="alt").img110.m-auto
+                img(src="@/assets/curso/tema2/vec3.svg", alt="alt" style='width: 144px').m-auto
               h4.text-center Individuos:
               p.text-center.mb-0 Son organismos unitarios que presentan una estructura independiente, la cual puede ser unicelular o pluricelular y además no tiene la necesidad de otro ser vivo para poder sobrevivir en algún ecosistema. 
 
           .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
             .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
               figure.mb-4
-                img(src="@/assets/curso/tema2/vec4.svg", alt="alt").img110.m-auto
+                img(src="@/assets/curso/tema2/vec4.svg", alt="alt" style='width: 144px').m-auto
               h4.text-center Población:
               p.text-center.mb-0 Esto hace referencia a un grupo de individuos de una misma especie que comparten el mismo espacio y en el mismo tiempo, por lo tanto, presentan diversas relaciones entre ellos, bien sea de alimentación o de reproducción. 
           
           .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
             .crd.crd--gray.crd--hoverBlue.crd--brad.crd--shadow
               figure.mb-4
-                img(src="@/assets/curso/tema2/vec5.svg", alt="alt").img110.m-auto
+                img(src="@/assets/curso/tema2/vec5.svg", alt="alt" style='width: 144px').m-auto
               h4.text-center Comunidad:
               p.text-center.mb-0 Se conoce como el conjunto de varias poblaciones que pueden ser a su vez de diferentes especies pero que habitan en un mismo ecosistema o territorio determinado.
 
@@ -81,7 +81,7 @@
             .col-md-6
               p Son los organismos que generan su alimento por medio del proceso de la fotosíntesis en el cual sintetizan los azucares a partir del dióxido de carbono y agua en conjunto con el aprovechamiento de la luz. Un claro ejemplo de estos son las plantas. 
 
-            .col-8.col-md-4
+            .col-10.col-md-4
               figure
                 img(src='@/assets/curso/tema2/img11.png')
 
@@ -90,7 +90,7 @@
             .col-md-6
               p son todos aquellos organismos que captan la energía necesaria para poder fabricar su alimento de diferentes reacciones químicas exotérmicas de derivados compuestos orgánicos. La gran diferencia que se presentan con los fotoautótrofos es que estos no requieren de agua para realizar su proceso y no generan oxígeno. Un ejemplo de este grupo son las bacterias. 
             
-            .col-8.col-md-4
+            .col-10.col-md-4
               figure
                 img(src='@/assets/curso/tema2/img12.png')
  
@@ -194,7 +194,7 @@
         p.mb-4 Por otro lado, se hace necesario mirar otros factores que también influyen el contexto ambiental en el cual están las organizaciones y que debe ser estudiado cuando se busca revisar el desempeño de una empresa, a continuación se pueden conocer:
 
       .row.justify-content-center.mb-4
-        .col-lg-6.mb-3
+        .col-lg-6.mb-4
           .crd_hover_txt.clr--01(@mouseover="mostrarIndicador= true")
             .crd_hover_txt--img.mb-0   
               img(src="@/assets/curso/tema2/img9.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
@@ -203,7 +203,7 @@
               p.mb-0.text-white Este factor es determinante para la generación de vida, ya que afecta las propiedades químicas tanto del agua como del suelo, lo cual le otorga características a cada ecosistema en particular.  
             .indicador--hover(v-if="mostrarIndicador")
 
-        .col-lg-6.mb-3
+        .col-lg-6.mb-4
           .crd_hover_txt.clr--03
             .crd_hover_txt--img.mb-0 
               img(src="@/assets/curso/tema2/img10.jpg" alt="Adornos flotantes" style="width: 100% ").mb-3
