@@ -29,8 +29,21 @@
       display: block;
       overflow-x: auto;
 
-@media (max-width: $bp-max-xs)       
-  .tema4 .tarjeta-flip .tarjeta-flip__contenedor .tarjeta-flip__img figure 
+.tema4 .tarjeta-flip__contenido
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-content: center
+  align-items: center
+
+.tema4 .tarjeta-flip .tarjeta-flip__contenedor .tarjeta-flip__img figure
+  display: flex
+  flex-direction: column
+  align-content: center
+  justify-content: center
+  align-items: center
+  @media (max-width: $bp-max-xs)      
+   
     display: flex
     flex-direction: column
     align-items: center
