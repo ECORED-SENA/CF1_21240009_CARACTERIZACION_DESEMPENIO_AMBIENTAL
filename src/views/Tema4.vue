@@ -24,7 +24,7 @@
         .tabla-editada3.mb-5
           table
             caption
-              p Nota. SENA, (2022).
+              p.mb-0 Nota. SENA, (2022).
             thead
               tr.text-center
                 th.text-center.p-4 <strong>Clasificación</strong>
@@ -71,7 +71,7 @@
         .tabla-editada4.mb-5
           table
             caption
-              p Nota. SENA, (2022).
+              p.mb-0 Nota. SENA, (2022).
             thead
               tr.text-center
                 th.text-center <strong>Normas Generales</strong> 
@@ -107,7 +107,7 @@
     
     p.mb-4(data-aos="fade-right") Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación::
 
-    .row.mx-0.mb-5(data-aos="fade-up")
+    .row.tema4.mx-0.mb-5(data-aos="fade-up")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -117,7 +117,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para el cambio climático  
                 p.text-center.text-white Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos.  
-                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+                a.boton.color-acento-botones.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
 
@@ -125,7 +125,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
               h3.text-center Convención para el cambio climático 
               p.text-center.mt-2 Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos. 
-              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+              a.boton.color-acento-botones.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 
@@ -140,7 +140,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para la protección de la biodiversidad 
                 p.text-center.text-white Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+                a.boton.color-acento-botones.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                   span cancilleria
                   i.fas.fa-link 
 
@@ -148,7 +148,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
               h3.text-center Convención para la protección de la biodiversidad 
               p.text-center.mt-3 Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+              a.boton.color-acento-botones.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                 span cancilleria
                 i.fas.fa-link 
 
@@ -162,7 +162,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención de Basilea sobre residuos peligrosos (1989). 
                 p.text-center.text-white Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-                a.boton.color-acento-botones.mx-4.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+                a.boton.color-acento-botones.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                   span Convenio
                   i.fas.fa-link 
 
@@ -170,7 +170,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
               h3.text-center Convención de Basilea sobre residuos peligrosos (1989). 
               p.text-center.mt-3 Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-              a.boton.color-acento-botones.mx-4.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+              a.boton.color-acento-botones.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                 span Convenio
                 i.fas.fa-link 
 
@@ -183,7 +183,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
                 p.text-center.text-white Ratificado por Colombia por medio de la Ley de 1990.
-                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+                a.boton.color-acento-botones.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
                  
@@ -191,7 +191,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
               h3.text-center Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
               p.text-center.mt-3 Ratificado por Colombia por medio de la Ley de 1990.
-              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+              a.boton.color-acento-botones.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 

@@ -128,8 +128,8 @@
 
         .tabla-editada1.mb-5
           table
-            caption.mb-0
-              p Nota. SENA, (2022).
+            caption
+              p.mb-0 Nota. SENA, (2022).
             thead
               tr.text-center
                 th.text-center.p-4 Estructura organizacional

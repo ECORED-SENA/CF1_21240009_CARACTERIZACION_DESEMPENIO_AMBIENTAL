@@ -65,7 +65,7 @@
         .tabla-editada2.mb-5
           table
             caption
-              p Nota. SENA, (2022).
+              p.mb-0 Nota. SENA, (2022).
             thead
               tr.text-center
                 th.text-center.p-4 Etapas
