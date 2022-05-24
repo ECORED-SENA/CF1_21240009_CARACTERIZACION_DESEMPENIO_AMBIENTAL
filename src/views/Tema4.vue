@@ -8,7 +8,7 @@
         span.text-white 4
       h1 Normativa
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-md-1.col-6
         figure
           img.p-y-1(src='@/assets/curso/tema1/icon1.svg', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -16,7 +16,7 @@
         p Debido a que Colombia está catalogado como el segundo país más megadiverso por la gran variedad de fauna y flora existe en su ecosistema, es primordial que se asegure su conservación y preservación por medio de normativas ambientales, por lo que a continuación se describe la clasificación de la normatividad ambiental en Colombia en la siguiente tabla 3:
 
     .row.justify-content-center 
-      .col-md-12    
+      .col-md-12(data-aos="fade-up")    
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span  Clasificación Normatividad Ambiental
@@ -27,43 +27,43 @@
               p Nota. SENA, (2022).
             thead
               tr.text-center
-                th.text-center <strong>Clasificación</strong>
-                th.text-center <strong>Concepto</strong>
-                th.text-center <strong>Factores</strong> 
+                th.text-center.p-4 <strong>Clasificación</strong>
+                th.text-center.p-4 <strong>Concepto</strong>
+                th.text-center.p-4 <strong>Factores</strong> 
             tbody
               tr
-                td.text-center Protección del ambiente.
-                td Son todas aquellas normas que tienen como propósito la prevención, reducción y eliminación de contaminaciones o afectaciones al medio ambiente. 
-                td Se tienen en cuenta el cambio de procesos para prevenir emisiones atmosféricas y a su vez controles y mediciones en laboratorios especializados.
+                td.text-center(style='background-color: #F6F6F6') Protección del ambiente.
+                td.p-4(style='background-color: #F6F6F6') Son todas aquellas normas que tienen como propósito la prevención, reducción y eliminación de contaminaciones o afectaciones al medio ambiente. 
+                td.p-4(style='background-color: #F6F6F6') Se tienen en cuenta el cambio de procesos para prevenir emisiones atmosféricas y a su vez controles y mediciones en laboratorios especializados.
               tr
                 td.text-center Gestión de aguas residuales
-                td Estas normas están encaminadas en la prevención de la contaminación de aguas superficiales. 
-                td Las redes de transporte de aguas y el tratamiento de sus residuos.              
+                td.p-4 Estas normas están encaminadas en la prevención de la contaminación de aguas superficiales. 
+                td.p-4 Las redes de transporte de aguas y el tratamiento de sus residuos.              
               tr
-                td.text-center Gestión de residuos
-                td Se refiere a las actividades que tienen como objetivo prevenir la generación de residuos y así poder disminuir las afectaciones que tiene al ambiente. 
-                td La recolección y transporte de los residuos es clave en este proceso, así mismo, lo es el tratamiento y eliminación de residuos peligrosos. 
+                td.text-center(style='background-color: #F6F6F6') Gestión de residuos
+                td.p-4(style='background-color: #F6F6F6') Se refiere a las actividades que tienen como objetivo prevenir la generación de residuos y así poder disminuir las afectaciones que tiene al ambiente. 
+                td.p-4(style='background-color: #F6F6F6') La recolección y transporte de los residuos es clave en este proceso, así mismo, lo es el tratamiento y eliminación de residuos peligrosos. 
               tr
-                td Protección y recuperación de suelos, aguas subterráneas y aguas superficiales
-                td Son todas aquellas medidas para prevenir las filtraciones de contaminantes en los suelos y cuerpos de agua. 
-                td Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
+                td.text-center Protección y recuperación de suelos, aguas subterráneas y aguas superficiales
+                td.p-4 Son todas aquellas medidas para prevenir las filtraciones de contaminantes en los suelos y cuerpos de agua. 
+                td.p-4 Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
               tr
-                td.text-center Atenuación de ruidos y vibraciones
-                td Son las medidas que tienden a controlar los ruidos y vibraciones en su mayoría generadas por procesos industriales.  
-                td Se realizan modificaciones preventivas de los procesos en la fuente, como lo son instalaciones de sistemas anti ruido y vibraciones. 
+                td.text-center(style='background-color: #F6F6F6') Atenuación de ruidos y vibraciones
+                td.p-4(style='background-color: #F6F6F6') Son las medidas que tienden a controlar los ruidos y vibraciones en su mayoría generadas por procesos industriales.  
+                td.p-4(style='background-color: #F6F6F6') Se realizan modificaciones preventivas de los procesos en la fuente, como lo son instalaciones de sistemas anti ruido y vibraciones. 
               tr
                 td.text-center Protección de la biodiversidad y de los paisajes
-                td Se refiere a aquellas actividades destinadas a la conservación y rehabilitación de especies de fauna y flora. 
-                td Es la protección y rehabilitación de hábitat y especies que han sido intervenidos. 
+                td.p-4 Se refiere a aquellas actividades destinadas a la conservación y rehabilitación de especies de fauna y flora. 
+                td.p-4 Es la protección y rehabilitación de hábitat y especies que han sido intervenidos. 
               tr
-                td.text-center Protección contra las radiaciones.
-                td Son todas aquellas normas que mediante mediciones pretenden reducir las consecuencias negativas que trae consigo las radiaciones. 
-                td Se tiene en cuenta el tratamiento y transporte que tienen los residuos radiactivos. 
+                td.text-center(style='background-color: #F6F6F6') Protección contra las radiaciones.
+                td.p-4(style='background-color: #F6F6F6') Son todas aquellas normas que mediante mediciones pretenden reducir las consecuencias negativas que trae consigo las radiaciones. 
+                td.p-4(style='background-color: #F6F6F6') Se tiene en cuenta el tratamiento y transporte que tienen los residuos radiactivos. 
           
-    p.mb-5.text-center <b>En Colombia existen gran cantidad de normas ambientales como las que se describen en la siguiente tabla 4:</b>
+    p.mb-5.text-center(data-aos="fade-right") <b>En Colombia existen gran cantidad de normas ambientales como las que se describen en la siguiente tabla 4:</b>
     
     .row.justify-content-center 
-      .col-md-11
+      .col-md-11(data-aos="fade-up")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4
           span  Normas ambientales en Colombia.
@@ -79,42 +79,35 @@
                 th.text-center <strong>Enlaces</strong> 
             tbody
               tr
-                td.text-center Constitución Nacional
-                td Principios principales que expone la constitución:<br><br/>
-                  ul.lista-ul.lista-ul.lista-ul--color.mb-5
-                    li 
-                      i.fas.fa-circle
-                      span Derecho a un ambiente sano.
-                    li 
-                      i.fas.fa-circle
-                      span El medio ambiente como patrimonio cultural. 
-                    li 
-                      i.fas.fa-circle
-                      span Desarrollo sostenible.
-                td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
+                td.text-center(style='background-color: #F6F6F6') Constitución Nacional
+                td(style='background-color: #F6F6F6').p-4 Principios principales que expone la constitución:<br><br/>
+                  p Derecho a un ambiente sano.
+                  p El medio ambiente como patrimonio cultural. 
+                  p Desarrollo sostenible.
+                td(style='background-color: #F6F6F6') https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
               tr
-                td Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
-                td Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
+                td.p-4 Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
+                td.p-4 Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
                 td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551              
               tr
-                td Ley sanitaria - Ley 09 de 1979.
-                td Su principal objetivo es la conservación de la salud y del bienestar humano.
-                td https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
+                td.p-4(style='background-color: #F6F6F6') Ley sanitaria - Ley 09 de 1979.
+                td.p-4(style='background-color: #F6F6F6') Su principal objetivo es la conservación de la salud y del bienestar humano.
+                td(style='background-color: #F6F6F6') https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
               tr
-                td Ley 99 de 1993.
-                td Se crea el Ministerio de medio ambiente. 
+                td.p-4 Ley 99 de 1993.
+                td.p-4 Se crea el Ministerio de medio ambiente. 
                 td https://www.icbf.gov.co/cargues/avance/docs/ley_0099_1993.htm
               tr
-                td Código minero - Ley 685 del 2001.
-                td Se expide el código de minas. 
-                td http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
+                td.p-4(style='background-color: #F6F6F6') Código minero - Ley 685 del 2001.
+                td.p-4(style='background-color: #F6F6F6') Se expide el código de minas. 
+                td(style='background-color: #F6F6F6') http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
               
-    figure.mb-4
+    figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
     
-    p.mb-4 Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación::
+    p.mb-4(data-aos="fade-right") Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación::
 
-    .row.mx-0.mb-5
+    .row.mx-0.mb-5(data-aos="fade-up")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -124,7 +117,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para el cambio climático  
                 p.text-center.text-white Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos.  
-                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
 
@@ -132,7 +125,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon1.svg', alt='imagen 1-2')
               h3.text-center Convención para el cambio climático 
               p.text-center.mt-2 Busca desarrollar temas frente a la educación, formación, sensibilización y cumplimiento de los compromisos adquiridos. 
-              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
+              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-internacionales/convenio-sobre-cambio-climatico/" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 
@@ -147,7 +140,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención para la protección de la biodiversidad 
                 p.text-center.text-white Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                   span cancilleria
                   i.fas.fa-link 
 
@@ -155,7 +148,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon2.svg', alt='imagen 1-2')
               h3.text-center Convención para la protección de la biodiversidad 
               p.text-center.mt-3 Se estableció en la conferencia de Río de Janeiro en el año 1991 y tiene como principal objetivo la protección de la biodiversidad.
-              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
+              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.cancilleria.gov.co/convenio-sobre-diversidad-biologica-cbd" target="_blank")
                 span cancilleria
                 i.fas.fa-link 
 
@@ -169,7 +162,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convención de Basilea sobre residuos peligrosos (1989). 
                 p.text-center.text-white Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-                a.boton.color-acento-botones.mx-3.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+                a.boton.color-acento-botones.mx-4.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                   span Convenio
                   i.fas.fa-link 
 
@@ -177,7 +170,7 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon3.svg', alt='imagen 1-2')
               h3.text-center Convención de Basilea sobre residuos peligrosos (1989). 
               p.text-center.mt-3 Reducir el volumen de residuos para proteger la salud humana y del medio ambiente. Colombia la ratificó mediante la ley 256 de 1996.
-              a.boton.color-acento-botones.mx-3.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
+              a.boton.color-acento-botones.mx-4.mb-5(href="https://ginebra-onu.mision.gov.co/convenio-basilea" target="_blank")
                 span Convenio
                 i.fas.fa-link 
 
@@ -190,7 +183,7 @@
                 img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
                 h3.text-center.text-white Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
                 p.text-center.text-white Ratificado por Colombia por medio de la Ley de 1990.
-                a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+                a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                   span Minambiente
                   i.fas.fa-link 
                  
@@ -198,13 +191,13 @@
               img.img250.p-2.center(src='@/assets/curso/tema4/icon4.svg', alt='imagen 1-2')
               h3.text-center Convenio de Viena para la protección de la capa de ozono y el Protocolo de Montreal. 
               p.text-center.mt-3 Ratificado por Colombia por medio de la Ley de 1990.
-              a.boton.color-acento-botones.mx-3.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
+              a.boton.color-acento-botones.mx-4.mb-5(href="https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/convencion-de-viena-y-protocolo-de-montreal/#:~:text=El%2016%20de%20septiembre%20de,de%20numerosas%20sustancias%20que%20son" target="_blank")
                 span Minambiente
                 i.fas.fa-link 
 
     .bg_grad-08
       .row.mb-5
-        .col-md-8
+        .col-md-8(data-aos="fade-right")
           figure.mb-4
             img(src='@/assets/curso/tema4/title2.svg' style='width: 340px')
           P Corresponden a los principios y normas que buscan la protección, conservación, recuperación del medio ambiente y preservación de los recursos naturales, en la tabla 6 se pueden observar: 
@@ -261,12 +254,12 @@
             img(src='@/assets/curso/tema4/img1.png')
 
       .row
-        .col-md-5.justify-content-center.centrado
+        .col-md-5.justify-content-center.centrado(data-aos="fade-right")
           figure.mb-5
             img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
           p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
         
-        .col-md-7   
+        .col-md-7(data-aos="fade-left")   
           SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
             .tarjeta.color-secundario.fondos.p-4.h-100.alinear.p-xl-5
               .row.mb-3.justify-content-center
@@ -317,14 +310,14 @@
                     i.fas.fa-link
     
     .bg_grad-07
-      figure.mb-4
+      figure.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema4/title4.svg' style='width: 440px')
 
-      p.mb-4 Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
+      p.mb-4(data-aos="fade-right") Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
 
     
       .row.mb-2
-        .col-md-9
+        .col-md-9(data-aos="fade-right")
           .tarjeta.color-secundario--claro.p-4.p-lg-4.mb-4.shadow
             LineaTiempoC.color-primario
               .row.justify-content-center(titulo="Resolución 1561 de 2019")
@@ -391,16 +384,16 @@
                       .anexo__texto
                         p <b>Enlace web.</b> MINISTERIO DE AMBIENTE Y DESARROLLO SOSTENIBLE  
 
-        .col-md-3
+        .col-md-3(data-aos="fade-up")
           figure.mb-4
             img(src='@/assets/curso/tema4/img2.png')
     separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido   
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")   
       h2 4.1  Matrices de requisitos legales
 
     .row.mb-5
-      .col-md-7
+      .col-md-7(data-aos="fade-right")
         p La matriz de requisitos legales es la recopilación de todos aquellos requisitos normativos que se le exigen a la organización, de acuerdo con su actividad económica. Estas normas y obligaciones legales están moderadas por diferentes mecanismos que buscan que una empresa garantice mediante la evidencia de actividades el cumplimiento de la normatividad vigente. 
         .cajon.color-primario.mb-3(style='background-color: #B1DBEA').p-3 
           p.mb-2 Por lo tanto, las matrices de requisitos legales se deben actualizar continuamente para que estén en total cumplimiento de las normativas.
@@ -408,43 +401,43 @@
         figure
           img(src='@/assets/curso/tema4/img3.png')
 
-    p.mb-5.text-center <b>Estos son algunos de los principales aspectos que se debe tener en cuenta en la matriz de requisitos legales:</b>   
+    p.mb-5.text-center(data-aos="zoom-in-up") <b>Estos son algunos de los principales aspectos que se debe tener en cuenta en la matriz de requisitos legales:</b>   
 
-    figure.col-md-9.col-12.center.mb-4
+    figure.col-md-9.col-12.center.mb-4(data-aos="zoom-in-up")
       img(src='@/assets/curso/tema4/grafica.svg')
     separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido   
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")   
       h2 4.2  Técnicas de recolección y conceptos
 
-    p.mb-4 Existen diferentes maneras de recolectar información dentro de una investigación, en la mayoría de casos solo depende de la pregunta de investigación que se formule o la información que se desee obtener. Algunos de estos métodos incluyen:
+    p.mb-4(data-aos="fade-right") Existen diferentes maneras de recolectar información dentro de una investigación, en la mayoría de casos solo depende de la pregunta de investigación que se formule o la información que se desee obtener. Algunos de estos métodos incluyen:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-md-3
-        .tarjeta.BG18.p-5.mb-3.align-items-center
+        .tarjeta.BG18.p-5.mb-3.align-items-center.justify-content-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon9.svg' style='width: 130px')
             h5.text-center Encuestas
 
       .col-md-3
-        .tarjeta.BG18.p-5.mb-3.align-items-center
+        .tarjeta.BG18.p-5.mb-3.align-items-center.justify-content-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon10.svg' style='width: 130px')
             h5.text-center Entrevistas
 
       .col-md-3
-        .tarjeta.BG18.p-5.mb-3.align-items-center
+        .tarjeta.BG18.p-5.mb-3.align-items-center.justify-content-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon11.svg' style='width: 130px')
             h5.text-center Revisión bibliográfica
 
       .col-md-3
-        .tarjeta.BG18.p-5.mb-3.align-items-center
+        .tarjeta.BG18.p-5.mb-3.align-items-center.justify-content-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon12.svg' style='width: 130px')
             h5.text-center Otras observación, registro, análisis
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-md-7
         .cajon-b.color-secundario.p-3
           p.mb-0 Para casos concretos de recolección de información relacionada a la normatividad aplicada en una organización, se debe realizar una investigación según la actividad económica y los procesos que allí se adelanten. 

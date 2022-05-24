@@ -9,7 +9,7 @@
       h1 Componentes Ambientales
 
     .bg_grad-03
-      .row.tarjeta.BG.section.justify.content-center.align-items-center.mb-5
+      .row.tarjeta.BG.section.justify.content-center.align-items-center.mb-5(data-aos="zoom-in-up")
         .col-lg-8
           p.col-md-10.p-2.cor Los componentes ambientales son todos los elementos, factores o recursos naturales que presentan interacciones entre sí, lo cual permite que se genere la vida en nuestro planeta. Estos tienen una vital influencia en el medio ambiente y por ende con cada uno de los seres vivos. Los componentes ambientales se pueden dividir en tres grandes grupos que son los factores bióticos, abióticos y socioculturales.
         .col-lg-4.col-10.center(data-aos="zoom-in-up")
@@ -18,7 +18,7 @@
       .row.mb-4
         .col-md-4(data-aos="zoom-in")
           img.p-2(src='@/assets/curso/tema2/vec1.svg' alt='AvatarTop')
-        .col-md-8
+        .col-md-8(data-aos="fade-left")
           .col-md-4.mb-3
             img.p-2(src='@/assets/curso/tema2/title1.svg' alt='AvatarTop')
           .col-md-12
@@ -34,12 +34,12 @@
                 i.fas.fa-book-open 
                 span Los seres vivos pueden obtener la energía que necesitan de diferentes formas del medio físico.
     br
-    p.mb-5.text-center <b>Los factores bióticos se pueden clasificar en dos formas principalmente:</b>
+    p.mb-5.text-center(data-aos="zoom-in") <b>Los factores bióticos se pueden clasificar en dos formas principalmente:</b>
 
-    figure.col-md-4.center.mb-4
+    figure.col-md-4.center.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/tema2/vec2.svg' alt='AvatarTop')
 
-    .bg_grad-04
+    .bg_grad-04(data-aos="fade-right")
       .row.justify-content-center.my-5.p-5.correr-izq.correr-der
         .row.justify-content-center
           .col-xxl-3.col-lg-3.col-md-12.col-xl-3
@@ -67,14 +67,14 @@
               h4.text-center Comunidad:
               p.text-center.mb-0 Se conoce como el conjunto de varias poblaciones que pueden ser a su vez de diferentes especies pero que habitan en un mismo ecosistema o territorio determinado.
 
-    P.mb-5 En segunda instancia, se puede encontrar la clasificación según su posición dentro de la cadena alimenticia, descrita en el siguiente recurso de aprendizaje:
+    P.mb-5(data-aos="zoom-in") En segunda instancia, se puede encontrar la clasificación según su posición dentro de la cadena alimenticia, descrita en el siguiente recurso de aprendizaje:
     
-    figure.mb-4
+    figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema2/title3.svg' style='width: 380px')
 
-    p.mb-4 Estos organismos también se conocen como autótrofos dado que tienen la capacidad de generar su propio alimento a partir de materia organiza y alguna fuente de energía. Estos organismos a su vez se pueden clasificar en dos tipos: 
+    p.mb-4(data-aos="fade-right") Estos organismos también se conocen como autótrofos dado que tienen la capacidad de generar su propio alimento a partir de materia organiza y alguna fuente de energía. Estos organismos a su vez se pueden clasificar en dos tipos: 
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in")
       TabsC.color-acento-contenido(data-aos="slide-left")
         .py-3.py-md-0(titulo="<h4>Fotoautótrofos</h4>")
           .row.fondo.p-5.justify-content-center.align-items-center
@@ -94,10 +94,10 @@
               figure
                 img(src='@/assets/curso/tema2/img12.png')
  
-    figure.mb-4
+    figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema2/title7.svg' style='width: 380px')
 
-    p.mb-5 Todos los organismos consumidores son aquellos que se alimentan de otros seres vivos de donde obtienen la materia organiza necesaria para mantener su metabolismo. Estos organismos se pueden clasificar de la siguiente manera: 
+    p.mb-5(data-aos="fade-right") Todos los organismos consumidores son aquellos que se alimentan de otros seres vivos de donde obtienen la materia organiza necesaria para mantener su metabolismo. Estos organismos se pueden clasificar de la siguiente manera: 
 
     .row.justify-content-center.mb-5
       .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -125,7 +125,7 @@
             h4.mb-4  Detritívoros
             p.mb-0 estos organismos se alimentan de materia orgánica muerta, que pueden ser animales, hojas y hasta excrementos. Acá se encuentran principalmente las lombrices y demás insectos en su mayoría. 
 
-    .row.mb-4.justify-content-center.align-items-center
+    .row.mb-4.justify-content-center.align-items-center(data-aos="fade-right")
       .col-md-8  
         figure.mb-4
           img(src='@/assets/curso/tema2/title4.svg' style='width: 380px')
@@ -136,7 +136,7 @@
           img(src='@/assets/curso/tema2/img2.png')
 
     .bg_grad-05.mb-5
-      .row.mb-4
+      .row.mb-4(data-aos="fade-left")
         .col-md-5(data-aos="zoom-in")
           figure.mb-4
             img(src='@/assets/curso/tema2/img3.png')
@@ -148,13 +148,13 @@
           figure.mb-4
             img.center(src='@/assets/curso/tema2/vec6.svg' style='width: 324px')
 
-      .row
+      .row(data-aos="fade-right")
         <h4 style="color: #126783;"><u>Factores abióticos físicos</u></h4>
 
-      .row
+      .row(data-aos="fade-right")
         p.mb-4 En el medio ambiente influyen muchos factores abióticos físicos que impactan directa e indirectamente el contexto donde una organización funciona. Pero ¿Sabes cuáles son? Se invita a revisar el siguiente recurso de aprendizaje donde se podrán diferenciar:
       
-      .tarjetas-up.mb-5
+      .tarjetas-up.mb-5(data-aos="zoom-in")
         .tarjetas-up__content.p-4.d-flex.align-items-center(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .tarjetas-up__content__image: img(src='@/assets/curso/tema2/img5.jpg')
@@ -187,13 +187,13 @@
               img.center(src='@/assets/curso/tema2/vec10.svg' style='width: 96px')
             p.fw-bold <i>Clima</i>
             p Dependiendo de la región climática en donde se encuentre cada ecosistema infiere totalmente en sus características y también en el tipo de organismos que allí habitan. 
-      .row
+      .row(data-aos="fade-right")
         <h4 style="color: #126783;"><u>Factores abióticos químicos</u></h4>
 
-      .row
+      .row(data-aos="fade-right")
         p.mb-4 Por otro lado, se hace necesario mirar otros factores que también influyen el contexto ambiental en el cual están las organizaciones y que debe ser estudiado cuando se busca revisar el desempeño de una empresa, a continuación se pueden conocer:
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4(data-aos="zoom-in")
         .col-lg-6.mb-4
           .crd_hover_txt.clr--01(@mouseover="mostrarIndicador= true")
             .crd_hover_txt--img.mb-0   
@@ -212,12 +212,12 @@
               br
               p Hace referencia a los diferentes compuestos químicos que están disueltos tanto en el suelo como en el aire y que proporcionan niveles de oxígeno necesario para la sustentabilidad de los ecosistemas.  
 
-    figure.mb-4
+    figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema2/title6.svg' style='width: 380px')
     
-    p.mb-4 Los factores socioculturales son el conjunto tanto de factores internos (las creencias y las habilidades personales), como de factores externos (efecto de la educación dentro de la sociedad).<br><br/>Es necesario entonces entender cada factor por separado, así:
+    p.mb-4(data-aos="fade-right") Los factores socioculturales son el conjunto tanto de factores internos (las creencias y las habilidades personales), como de factores externos (efecto de la educación dentro de la sociedad).<br><br/>Es necesario entonces entender cada factor por separado, así:
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-md-10.col-12
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
@@ -243,7 +243,7 @@
               figure
                 img(src='@/assets/curso/tema2/vec13.svg', style='width: 128px')
         .row
-          .col-md-10.center
+          .col-md-10.center(data-aos="zoom-in-up")
             .bg--2-claro2.position-relative.p-3.mb-5
               img.position-absolute.d-none.d-lg-block(src='@/assets/curso/tema2/vec14.svg' alt="Adornos flotantes" style="left: -2% ; top: -27%; width: 170px ")
               .row.justify-content-end 

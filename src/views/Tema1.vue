@@ -17,7 +17,7 @@
         img(src='@/assets/curso/tema1/img1.svg', alt='Imagen decorativa')
     
     .bg_grad-01
-      .tarjeta.fondo-slyder.mb-5
+      .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
         SlyderA
           .row
             .col-lg-7.text-white
@@ -59,7 +59,7 @@
               figure
                 img.p-y-1(src='@/assets/curso/tema1/5.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
-      .row.mb-4
+      .row.mb-4(data-aos="fade-up")
         .col-md-1.col-6
           figure
             img.p-y-1(src='@/assets/curso/tema1/icon1.svg', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -67,13 +67,13 @@
           p Existen diferentes herramientas que son utilizadas para analizar la situación actual de una organización con respecto a las condiciones internas y externas que puedan generar afectaciones o por el contrario, oportunidades al sistema; una de estas herramientas es la matriz DOFA, la cual será descrita a continuación:
       separador
 
-      #t_1_1.titulo-segundo.color-acento-contenido
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Matriz DOFA
 
-      p.mb-4 La matriz DOFA es una herramienta de gran utilidad para toda organización, ya que permite el entendimiento de los elementos que constituyen una empresa y las relaciones internas y externas que existen.
-      p.mb-5 Este análisis es utilizado para observar desde el exterior, es decir, como si fuera un observador neutral y no tuviera participación en la misma. Por lo anterior, se invita a revisar el siguiente recurso de aprendizaje, donde encontrará información clave sobre lo que significa la palabra DOFA y cómo se aplica al desempeño de una organización:
+      p.mb-4(data-aos="fade-up") La matriz DOFA es una herramienta de gran utilidad para toda organización, ya que permite el entendimiento de los elementos que constituyen una empresa y las relaciones internas y externas que existen.
+      p.mb-5(data-aos="fade-up") Este análisis es utilizado para observar desde el exterior, es decir, como si fuera un observador neutral y no tuviera participación en la misma. Por lo anterior, se invita a revisar el siguiente recurso de aprendizaje, donde encontrará información clave sobre lo que significa la palabra DOFA y cómo se aplica al desempeño de una organización:
 
-      .row
+      .row(data-aos="fade-up")
         ImagenInfografica.color-acento-botones.mb-5.col-md-4.center.col-12
           template(v-slot:imagen)
             figure
@@ -96,19 +96,19 @@
             img(src='@/assets/curso/tema1/img2.svg', alt='AvatarTop')
 
         .col-md-8
-          .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-0 
+          .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-0(data-aos="fade-left")
             p.mb-0 La manera más recomendada para hacer este análisis es por proceso, identificando en cada uno de ellos sus debilidades, oportunidades, fortalezas y amenazas, para posteriormente realizar un análisis global de la organización teniendo en cuenta lo obtenido en cada uno de los procesos del sistema productivo.
     separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Estructura organizacional
 
     .row.justify-content-center.mb-5
-      .col-lg-7.mb-5
+      .col-lg-7.mb-5(data-aos="fade-right")
         .row.justify-content-center
           .col-lg-2.col-1
             img.celular(src="@/assets/curso/tema1/icon1.svg")
-          .cajon.color-acento-contenido(style='background-color: #B1DBEA').col-lg-10.col-12.mb-3
+          .cajon.color-acento-contenido(style='background-color: #B1DBEA').col-lg-10.col-12.mb-3(data-aos="fade-right")
             p.m-2 Una estructura organizacional que esté bien planificada y constituida servirá efectivamente para reforzar los objetivos y hacer que los diferentes departamentos de la organización crezcan en la misma dirección.
         .row
           .col-md-12
@@ -120,50 +120,50 @@
       .col-lg-5(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/img3.svg")
 
-    .row.justify-content-center 
-      .col-md-10    
+    .row.justify-content-center(data-aos="fade-up")
+      .col-md-11    
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           span  Estructuras organizacionales
 
         .tabla-editada1.mb-5
           table
-            caption
+            caption.mb-0
               p Nota. SENA, (2022).
             thead
               tr.text-center
-                th.text-center Estructura organizacional
-                th.text-center Norma
+                th.text-center.p-4 Estructura organizacional
+                th.text-center.p-4 Norma
             tbody
               tr
-                td.text-center Lineal
-                td Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
+                td.text-center(style='background-color: #F6F6F6') Lineal
+                td.p-4(style='background-color: #F6F6F6') Es una estructura basada principalmente en los niveles de autoridad dentro de la organización manejando un sistema de decisión centralizada. Esta se maneja de forma piramidal donde entre más alta sea la jerarquía disminuirán los puestos, pero aumentarán las responsabilidades dentro de cada cargo.
               tr
                 td.text-center Horizontal
-                td En esta estructura los mandos de autoridad disminuyen, por lo que las personas que están ocupando los niveles más altos deberán estar en contacto directo con los empleados que se desempeñen en la primera línea.
+                td.p-4 En esta estructura los mandos de autoridad disminuyen, por lo que las personas que están ocupando los niveles más altos deberán estar en contacto directo con los empleados que se desempeñen en la primera línea.
               tr
-                td.text-center Funcional
-                td De esta manera se realiza una división de las tareas de la organización por medio de unidades especializadas, donde cada una de ellas cuenta con un jefe independiente, el cual es el encargado de coordinar su equipo de trabajo y a su vez permite una correcta comunicación con los demás equipos especializados.
+                td.text-center(style='background-color: #F6F6F6') Funcional
+                td.p-4(style='background-color: #F6F6F6') De esta manera se realiza una división de las tareas de la organización por medio de unidades especializadas, donde cada una de ellas cuenta con un jefe independiente, el cual es el encargado de coordinar su equipo de trabajo y a su vez permite una correcta comunicación con los demás equipos especializados.
               tr
                 td.text-center Divisional
-                td En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
+                td.p-4 En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
               tr
-                td.text-center Matricial
-                td La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
+                td.text-center(style='background-color: #F6F6F6') Matricial
+                td.p-4(style='background-color: #F6F6F6') La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
               tr
                 td.text-center Central
-                td Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
+                td.p-4 Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
               
     separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Procesos y procedimientos organizacionales
     
     .bg_grad-02                    
       .row.mb-4
         .col-md-5(data-aos="zoom-in")  
           img(src="@/assets/curso/tema1/7.png")
-        .col-md-7
+        .col-md-7(data-aos="fade-up-left")
           p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
           span Los procesos están directamente relacionados con la misión de la empresa y a su vez con la calidad de sus productos o servicios, los cuales se relacionan secuencialmente. Los elementos que intervienen dentro de cada proceso son los siguientes:
           p 
@@ -195,9 +195,9 @@
               span Personal.
           p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
 
-      p.mb-4 En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
+      p.mb-4(data-aos="zoom-in")   En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
 
-      .row.mx-0.mb-5
+      .row.mx-0.mb-5(data-aos="zoom-in")  
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -247,7 +247,7 @@
                 p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
 
       .row.mb-4
-        .col-md-7
+        .col-md-7(data-aos="fade-right")
           p.mb-4 Por otro lado, se hace necesario hablar de los procedimientos que son todas aquellas directrices que se deben tener en cuenta dentro de cada proceso, para poder obtener los objetivos planteados, estos permiten tener claridad acerca de las tareas y responsabilidades, tanto individuales como grupales.<br><br/>Cuando son ejecutados de manera competente se puede evidenciar en el resultado esperado, porque los trabajadores de cada proceso se integran y se enfocan en cumplir con las metas pactadas.
           .row.BG09.align-items-center.mb-5
             .col-lg-2.col-6.center
