@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span.text-white 1
-      h1 Marco normativo: estética
+      h1 Componentes del sistema
 
     .row
       .col-md-7.mb-2(data-aos="fade-right")
@@ -79,16 +79,20 @@
             figure
               img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
           .tarjeta.bg-amarillo-claro.p-4(x="9.4%" y="29.4%" numero="+")
-            p <b>Fortalezas</b>  Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización. 
+            p <b>Fortalezas</b> 
+            span Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización. 
 
           .tarjeta.bg-amarillo-claro.p-4(x="91%" y="29.4%" numero="+")
-            p  <b>Debilidades</b>  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo. 
+            p  <b>Debilidades</b>
+            span  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo. 
 
           .tarjeta.bg-amarillo-claro.p-4(x="9.4%" y="71.3%" numero="+")
-            p <b>Oportunidades</b>  Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación. 
+            p <b>Oportunidades</b> 
+            span Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación. 
 
           .tarjeta.bg-amarillo-claro.p-4(x="91%" y="71.3%" numero="+")
-            p <b>Amenazas</b>  En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
+            p <b>Amenazas</b> 
+            span En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
 
       .row.mb-5.justify-content-center.align-items-center
         .col-md-4(data-aos="zoom-in")
@@ -253,7 +257,7 @@
             .col-lg-2.col-6.center
               img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
             .col-lg-10.p-4
-              p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>“Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?2,</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
+              p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>"Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase",</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
         .col-md-5.mb-5.col-12(data-aos="zoom-in-up")
           img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
           

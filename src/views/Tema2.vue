@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span.text-white 2
-      h1 Componentes Ambientales
+      h1 Componentes ambientales
 
     .bg_grad-03
       .row.tarjeta.BG.section.justify.content-center.align-items-center.mb-5(data-aos="zoom-in-up")
@@ -88,7 +88,7 @@
         .py-3.py-md-0(titulo="<h4>Quimioautótrofos</h4>")
           .row.fondo.p-5.justify-content-center.align-items-center
             .col-md-6
-              p son todos aquellos organismos que captan la energía necesaria para poder fabricar su alimento de diferentes reacciones químicas exotérmicas de derivados compuestos orgánicos. La gran diferencia que se presentan con los fotoautótrofos es que estos no requieren de agua para realizar su proceso y no generan oxígeno. Un ejemplo de este grupo son las bacterias. 
+              p Son todos aquellos organismos que captan la energía necesaria para poder fabricar su alimento de diferentes reacciones químicas exotérmicas de derivados compuestos orgánicos. La gran diferencia que se presentan con los fotoautótrofos es que estos no requieren de agua para realizar su proceso y no generan oxígeno. Un ejemplo de este grupo son las bacterias. 
             
             .col-10.col-md-4
               figure
@@ -106,7 +106,7 @@
             img(src="@/assets/curso/tema2/img2.jpg", alt="alt")
           .crd_hover_txt--font
             h4.mb-4.text-white Herbívoros
-            p.mb-0.text-white estos organismos se alimentan básicamente de los anteriormente mencionados organismos productores que son en su mayoría plantas, semillas, raíces o demás derivados. En este grupo se pueden encontrar animales de todos los tamaños, desde un roedor hasta una inmensa jirafa. 
+            p.mb-0.text-white Estos organismos se alimentan básicamente de los anteriormente mencionados organismos productores que son en su mayoría plantas, semillas, raíces o demás derivados. En este grupo se pueden encontrar animales de todos los tamaños, desde un roedor hasta una inmensa jirafa. 
           .indicador--click(v-if="mostrarIndicador")  
 
       .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -115,7 +115,7 @@
             img(src="@/assets/curso/tema2/img3.jpg", alt="alt")
           .crd_hover_txt--font
             h4.mb-4  Carnívoros
-            p.mb-0 para estos organismos su principal fuente de alimento son otros organismos consumidores, es decir que se alimentan de carne. En este diverso grupo se pueden encontrar desde arácnidos hasta grandes mamíferos. 
+            p.mb-0 Para estos organismos su principal fuente de alimento son otros organismos consumidores, es decir que se alimentan de carne. En este diverso grupo se pueden encontrar desde arácnidos hasta grandes mamíferos. 
       
       .col-10.col-lg-4(data-aos="zoom-in")
         .crd_hover_txt.clr--03

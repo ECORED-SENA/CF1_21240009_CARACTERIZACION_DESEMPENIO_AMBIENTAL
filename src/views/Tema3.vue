@@ -18,6 +18,8 @@
           figure
             img(src='@/assets/curso/tema3/img1.png')
 
+      p.mb-5 Pero, ¿qué interviene en este proceso? La respuesta sería que intervienen una serie de elementos claves que deberá tener en cuenta al realizar el diagrama. Ahora, solo falta saber cuáles son, a continuación se pueden ver:
+
       .row.justify-content-center.mb-4(data-aos="zoom-in-up")
         .col-md-3
           .tarjeta.BG11.p-4

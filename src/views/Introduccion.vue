@@ -18,8 +18,8 @@
       .col-md-11
         figure.mb-5(data-aos="flip-up")
           .video
-            iframe(width="942" height="530" src="https://www.youtube.com/embed/5vI3zcaDlZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
-    
+            iframe(width="942" height="530" src="https://www.youtube.com/embed/8TCMBdrbiEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+   
 </template>
 
 <script>

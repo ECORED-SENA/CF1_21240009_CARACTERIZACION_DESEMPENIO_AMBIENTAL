@@ -84,15 +84,15 @@
                   p Derecho a un ambiente sano.
                   p El medio ambiente como patrimonio cultural. 
                   p Desarrollo sostenible.
-                td(style='background-color: #F6F6F6') https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125
+                td(style='background-color: #F6F6F6') <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125" target="_blank">https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125</a>
               tr
                 td.p-4 Código nacional de los recursos naturales renovables y de protección del medio ambiente - Decreto Ley 2811 de 1974.
                 td.p-4 Es el código mediante el cual se establece el uso de los recursos naturales renovables. 
-                td https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551              
+                td <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551" target="_blank">https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1551</a>           
               tr
                 td.p-4(style='background-color: #F6F6F6') Ley sanitaria - Ley 09 de 1979.
                 td.p-4(style='background-color: #F6F6F6') Su principal objetivo es la conservación de la salud y del bienestar humano.
-                td(style='background-color: #F6F6F6') https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf
+                td(style='background-color: #F6F6F6') <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf" target="_blank">https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%200009%20DE%201979.pdf</a><a></a>
               tr
                 td.p-4 Ley 99 de 1993.
                 td.p-4 Se crea el Ministerio de medio ambiente. 
@@ -100,7 +100,7 @@
               tr
                 td.p-4(style='background-color: #F6F6F6') Código minero - Ley 685 del 2001.
                 td.p-4(style='background-color: #F6F6F6') Se expide el código de minas. 
-                td(style='background-color: #F6F6F6') http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html
+                td(style='background-color: #F6F6F6') <a href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html" target="_blank">http://www.secretariasenado.gov.co/senado/basedoc/ley_0685_2001.html</a>
               
     figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
@@ -257,7 +257,7 @@
         .col-md-5.justify-content-center.centrado(data-aos="fade-right")
           figure.mb-5
             img(src='@/assets/curso/tema4/title3.svg' style='width: 360px')
-          p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; en la siguiente tabla 7 se puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
+          p Tienen como propósito velar por la recuperación, conservación, protección, manejo, uso y aprovechamiento de los recursos naturales renovables de la nación; puede apreciarlos con su correspondiente enlace para que se pueda acceder a la información de primera mano:
         
         .col-md-7(data-aos="fade-left")   
           SlyderF.mb-5(columnas="col-lg-6 col-xl-6 align-self-stretch")
@@ -313,7 +313,7 @@
       figure.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema4/title4.svg' style='width: 440px')
 
-      p.mb-4(data-aos="fade-right") Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación en la tabla 8:
+      p.mb-4(data-aos="fade-right") Son todos los lineamientos que la autoridad requiere para la elaboración y ejecución de los estudios ambientales que deben ser presentados ante las autoridades, conocerlas son de vital importancia al momento de realizar un proceso laboral en Colombia, ya que aplican en cualquier organización y es por esto que es importante estudiarlas a profundidad, a continuación:
 
     
       .row.mb-2
@@ -435,7 +435,7 @@
         .tarjeta.BG18.p-5.mb-3.align-items-center.justify-content-center
           .row.justify-content-center
             img.py-3(src='@/assets/curso/tema4/icon12.svg' style='width: 130px')
-            h5.text-center Otras observación, registro, análisis
+            h5.text-center Otras formas
 
     .row.mb-5(data-aos="fade-right")
       .col-md-7
