@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5   
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
@@ -10,19 +10,19 @@
 
     .row
       .col-md-7.mb-2(data-aos="fade-right")
-        .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4 
-          p.mb-0 Toda organización, empresa o proyecto tiene ciertos componentes, los cuales en la medida que interactúan entre ellos le dan validez a los objetivos que se plantean inicialmente, ya que son elementos transformadores que procesan recursos o insumos y hacen parte de la cadena de producción para entregar un producto final que se adapte a las necesidades del cliente.  
-        p Para dar claridad, en el siguiente recurso de aprendizaje se presentan los componentes de un sistema, por lo que se invita a revisar y a hacer búsquedas en internet en páginas de alta calidad académica sobre el tema para profundizar sobre el desempeño ambiental de una organización, a partir de lo que se presenta a continuación:  
-      .col-md-5.mb-2(data-aos="fade-left")  
+        .cajon.color-acento-contenido(style='background-color: #B1DBEA').p-4.mb-4
+          p.mb-0 Toda organización, empresa o proyecto tiene ciertos componentes, los cuales en la medida que interactúan entre ellos le dan validez a los objetivos que se plantean inicialmente, ya que son elementos transformadores que procesan recursos o insumos y hacen parte de la cadena de producción para entregar un producto final que se adapte a las necesidades del cliente.
+        p Para dar claridad, en el siguiente recurso de aprendizaje se presentan los componentes de un sistema, por lo que se invita a revisar y a hacer búsquedas en internet en páginas de alta calidad académica sobre el tema para profundizar sobre el desempeño ambiental de una organización, a partir de lo que se presenta a continuación:
+      .col-md-5.mb-2(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img1.svg', alt='Imagen decorativa')
-    
+
     .bg_grad-01
       .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
         SlyderA
           .row
             .col-lg-7.text-white
               h5.aling-2 El medio ambiente:
-                p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo. 
+                p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo.
             .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -38,7 +38,7 @@
           .row
             .col-lg-7.text-white
               h5.aling-1 Entradas:
-                p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema. 
+                p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema.
             .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -46,7 +46,7 @@
           .row
             .col-lg-7.text-white
               h5.aling-2 Salidas:
-                p.mt-2 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada. 
+                p.mt-2 Son todos aquellos resultados obtenidos luego de que se procesaran las entradas y sean transformadas en productos, servicios o información para los clientes. Estas son las encargadas de mostrar el funcionamiento óptimo del sistema productivo y  tienen la capacidad de convertirse en las entradas de otro, el cual mediante su procesamiento las convertirá en otra salida generando que el ciclo se repita de manera indeterminada.
             .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -54,7 +54,7 @@
           .row
             .col-lg-7.text-white
               h5.aling-1 Los procesos de conversión:
-                p.mt-3 Son todos aquellos que comprenden la estructuración organizacional y los procesos asociados al sistema productivo. 
+                p.mt-3 Son todos aquellos que comprenden la estructuración organizacional y los procesos asociados al sistema productivo.
             .col-lg-5.col-7.center
               figure
                 img.p-y-1(src='@/assets/curso/tema1/5.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
@@ -79,20 +79,20 @@
             figure
               img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
           .tarjeta.bg-amarillo-claro.p-4(x="9.4%" y="29.4%" numero="+")
-            p <b>Fortalezas</b> 
-            span Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización. 
+            p <b>Fortalezas</b>
+            span Tener claridad de las ventajas o fortalezas que se tiene frente al resto de la competencia permitirá definir los atributos que se deben resaltar para lograr los objetivos propuestos por la organización.
 
           .tarjeta.bg-amarillo-claro.p-4(x="91%" y="29.4%" numero="+")
             p  <b>Debilidades</b>
-            span  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo. 
+            span  Se hace referencia a todos los elementos, recursos energéticos y actitudes que la empresa tiene actualmente y que pueden generar diferentes obstáculos para el correcto funcionamiento de la organización. Es de vital importancia reconocer las debilidades, ya que  permitirá elaborar estrategias que lleven a afrontarlas en el transcurso del tiempo.
 
           .tarjeta.bg-amarillo-claro.p-4(x="9.4%" y="71.3%" numero="+")
-            p <b>Oportunidades</b> 
-            span Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación. 
+            p <b>Oportunidades</b>
+            span Son todos aquellos factores positivos que se generan externamente y están relacionados con la competitividad. La correcta identificación de estas oportunidades permite el crecimiento de los beneficios de la organización. Usualmente estas  requieren de una inversión, bien sea monetaria o de capacitación.
 
           .tarjeta.bg-amarillo-claro.p-4(x="91%" y="71.3%" numero="+")
-            p <b>Amenazas</b> 
-            span En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado. 
+            p <b>Amenazas</b>
+            span En su mayoría son obstáculos externos que ponen en riesgo el correcto funcionamiento del sistema organizacional. Pueden ser  nuevos competidores, nuevas legislaciones o cambio de proveedores. Una vez son identificadas es necesario que se diseñe una estrategia que permita mitigar o solucionar en un periodo de tiempo determinado.
 
       .row.mb-5.justify-content-center.align-items-center
         .col-md-4(data-aos="zoom-in")
@@ -119,13 +119,13 @@
             .bloque-texto-b.color-secundario
               .bloque-texto-b__texto
                 p Esta es necesaria para que cada uno de los trabajadores entienda el funcionamiento de la misma, obteniendo una cadena de mandos clara donde los empleados tengan una correcta orientación y seguridad al desarrollar sus actividades.
-                <br><br/> Es por esto que cada organización debe contar con un modelo de estructura organizacional en la cual estén totalmente definidos los cargos y las responsabilidades de cada tarea, para de esta manera eliminar las dificultades que puedan aparecer por la falta de comunicación y una planeación estratégica errónea. 
-                <br><br/> Teniendo en cuenta lo anterior, se invita a profundizar en el tema, debido a que se pueden encontrar diferentes tipos de estructura organizacional, los cuales serán descritos en la siguiente tabla 1: 
+                <br><br/> Es por esto que cada organización debe contar con un modelo de estructura organizacional en la cual estén totalmente definidos los cargos y las responsabilidades de cada tarea, para de esta manera eliminar las dificultades que puedan aparecer por la falta de comunicación y una planeación estratégica errónea.
+                <br><br/> Teniendo en cuenta lo anterior, se invita a profundizar en el tema, debido a que se pueden encontrar diferentes tipos de estructura organizacional, los cuales serán descritos en la siguiente tabla 1:
       .col-lg-5(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/img3.svg")
 
     .row.justify-content-center(data-aos="fade-up")
-      .col-md-11    
+      .col-md-11
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           span  Estructuras organizacionales
@@ -153,55 +153,55 @@
                 td.p-4 En esta estructura se realiza la división de los grupos de trabajo por el tipo de producto o servicio que se está ofreciendo al mercado, estos serán responsables de la distribución de las tareas dentro de esa área en particular.
               tr
                 td.text-center(style='background-color: #F6F6F6') Matricial
-                td.p-4(style='background-color: #F6F6F6') La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.  
+                td.p-4(style='background-color: #F6F6F6') La organización estará estructurada por grupo de trabajo totalmente autónomos por lo que no presentan relaciones entre sí, ya que cada trabajador tendrá asignadas unas tareas específicas que serán reportadas a un coordinador de área, el cual reportará directamente al encargado de dirigir la organización.
               tr
                 td.text-center Central
                 td.p-4 Esta estructura se utiliza usualmente en empresas que son muy grandes y trae consigo trabajos mucho más complejos donde cada uno de los trabajadores tiene que dar reporte a diferentes supervisores, quienes se encuentran distribuidos dentro de las diferentes áreas de la organización.
-              
+
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Procesos y procedimientos organizacionales
-    
-    .bg_grad-02                    
+
+    .bg_grad-02
       .row.mb-4
-        .col-md-5(data-aos="zoom-in")  
+        .col-md-5(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/7.png")
         .col-md-7(data-aos="fade-up-left")
-          p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.   
+          p Los procesos dentro de una organización son el conjunto de actividades o pasos que se deben seguir por los trabajadores para lograr objetivos y metas pactadas con anterioridad, estos procesos deben ser relevados en la organización con el fin de alcanzar la eficiencia y efectividad económica dentro de la entidad.
           span Los procesos están directamente relacionados con la misión de la empresa y a su vez con la calidad de sus productos o servicios, los cuales se relacionan secuencialmente. Los elementos que intervienen dentro de cada proceso son los siguientes:
-          p 
+          p
           ul.lista-ul.lista-ul.lista-ul--color
-            li 
+            li
               i.fas.fa-book-open
               span Procedimientos.
-            li 
-              i.fas.fa-book-open 
+            li
+              i.fas.fa-book-open
               span Formas.
 
-            li 
-              i.fas.fa-book-open 
+            li
+              i.fas.fa-book-open
               span Informes.
 
-            li 
-              i.fas.fa-book-open 
+            li
+              i.fas.fa-book-open
               span Archivo.
 
-            li 
-              i.fas.fa-book-open 
+            li
+              i.fas.fa-book-open
               span Equipo.
-              
-            li 
-              i.fas.fa-book-open 
+
+            li
+              i.fas.fa-book-open
               span Espacio.
-            li 
-              i.fas.fa-book-open 
+            li
+              i.fas.fa-book-open
               span Personal.
-          p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización. 
+          p Los procesos dentro de una organización deben estar encaminados hacia el mejoramiento de los sistemas de trabajo, es por esto que se debe establecer un inicio y un fin preciso para no intervenir en los procesos que se adelantan en las demás áreas dentro de la organización.
 
-      p.mb-4(data-aos="zoom-in")   En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:  
+      p.mb-4(data-aos="zoom-in")   En el siguiente recurso de aprendizaje se presentan los elementos que se deben tener en cuenta en los procesos, por lo que se invita a revisar cada uno de los factores claves que debe validar al realizar tal acción:
 
-      .row.mx-0.mb-5(data-aos="zoom-in")  
+      .row.mx-0.mb-5(data-aos="zoom-in")
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -209,10 +209,10 @@
               .tarjeta-flip__img.bgr_2.align-items-center
                 figure
                   img.img250.p-2.center(src='@/assets/curso/tema1/img4.svg', alt='imagen 1-2')
-                  h3.text-center.text-white Líder social    
+                  h3.text-center.text-white Líder social
               .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
                 h3.text-center Poder:
-                p.text-center.mt-3 Tener la habilidad para influir en un grupo de trabajo, lo cual es esencial para el cumplimiento de los objetivos, tanto individuales como organizacionales. 
+                p.text-center.mt-3 Tener la habilidad para influir en un grupo de trabajo, lo cual es esencial para el cumplimiento de los objetivos, tanto individuales como organizacionales.
 
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -221,9 +221,9 @@
               .tarjeta-flip__img.bgr_2.align-items-center
                 figure
                   img.img250.p-2.center(src='@/assets/curso/tema1/img5.svg', alt='imagen 1-2')
-                  h3.text-center.text-white Empresario   
+                  h3.text-center.text-white Empresario
               .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-                h3.text-center Autoridad: 
+                h3.text-center Autoridad:
                 p.text-center.mt-3 Tener el derecho de dar órdenes, establecer las responsabilidades dentro de cada proceso.
 
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -233,10 +233,10 @@
               .tarjeta-flip__img.bgr_2.align-items-center
                 figure
                   img.img250.p-2.center(src='@/assets/curso/tema1/img6.svg', alt='imagen 1-2')
-                  h3.text-center.text-white Entidad estatal  
+                  h3.text-center.text-white Entidad estatal
               .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-                h3.text-center Toma de decisiones:  
-                p.text-center.mt-3 Es necesario establecer los rangos dentro de la organización y niveles jerárquicos si así se requiere, donde las decisiones sean tomadas únicamente por las personas responsables de cada proceso. 
+                h3.text-center Toma de decisiones:
+                p.text-center.mt-3 Es necesario establecer los rangos dentro de la organización y niveles jerárquicos si así se requiere, donde las decisiones sean tomadas únicamente por las personas responsables de cada proceso.
 
         .col-sm-6.col-xl-3.mb-5.mb-xl-0
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -245,10 +245,10 @@
               .tarjeta-flip__img.bgr_2.align-items-center
                 figure
                   img.img250.p-2.center(src='@/assets/curso/tema1/img7.svg', alt='imagen 1-2')
-                  h3.text-center.text-white Crisis sanitaria  
+                  h3.text-center.text-white Crisis sanitaria
               .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
-                h3.text-center Liderazgo: 
-                p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso. 
+                h3.text-center Liderazgo:
+                p.text-center.mt-3 El liderazgo es la interrelación entre la estructura personal del líder, la personalidad de los seguidores, la estructura y función del grupo, y la situación por la cual atraviesa cada proceso.
 
       .row.mb-4
         .col-md-7(data-aos="fade-right")
@@ -257,10 +257,10 @@
             .col-lg-2.col-6.center
               img.p-2(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
             .col-lg-10.p-4
-              p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>"Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase",</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
+              p Para profundizar en el tema se invita a ver el video <font color="#126783"><b>"Identificación de procesos organizacionales, ¿Qué proceso implementar en cada fase?",</b></font> que se encuentra ubicado en la sección de materiales complementarios, en el cual se podrá encontrar elementos claves para poder definir los pasos a seguir en el establecimiento de las estrategias.
         .col-md-5.mb-5.col-12(data-aos="zoom-in-up")
           img.espa(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
-          
+
 </template>
 
 <script>

@@ -50,7 +50,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Componentes Ambientales',
+        titulo: 'Componentes ambientales',
         desarrolloContenidos: true,
       },
       {
