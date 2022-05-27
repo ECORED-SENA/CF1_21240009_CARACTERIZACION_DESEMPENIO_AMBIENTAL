@@ -105,7 +105,7 @@
     figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema4/title.svg' style='width: 400px')
 
-    p.mb-4(data-aos="fade-right") Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación::
+    p.mb-4(data-aos="fade-right") Son acuerdos entre dos o más países que quedan por escrito, los cuales están regulados por las normas del derecho internacional. Esto se puede estudiar a continuación:
 
     .row.tema4.mx-0.mb-5(data-aos="fade-up")
       .col-sm-6.col-xl-3.mb-4.mb-xl-0

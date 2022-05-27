@@ -136,8 +136,7 @@ export default {
     {
       referencia:
         'Sánchez, O. (2007). Análisis de ciclo de vida y su aplicación a la producción de bioetanol. Universidad Eafit.',
-      link:
-        'https://www.ins.gov.co/Normatividad/Decretos/DECRETO%200780%20DE%202016.pdf',
+      link: '',
     },
   ],
   glosario: [
@@ -152,12 +151,12 @@ export default {
         'Son todos los elementos, factores o recursos naturales que presentan interacciones entre sí lo cual permite que se genere la vida en nuestro planeta.',
     },
     {
-      termino: 'Factores Abióticos ',
+      termino: 'Factores Abióticos',
       significado:
         'Son aquellos que no tienen vida, pero de igual manera son de vital importancia para el desarrollo de los ecosistemas y de los seres vivos.',
     },
     {
-      termino: 'Factores Bióticos ',
+      termino: 'Factores Bióticos',
       significado:
         'Son todos aquellos organismos que tienen vida como los animales, las plantas o los microorganismos.',
     },

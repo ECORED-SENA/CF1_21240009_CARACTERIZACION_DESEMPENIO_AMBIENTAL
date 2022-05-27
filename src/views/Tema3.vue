@@ -126,7 +126,7 @@
           .anexo__texto
             p <b>Enlace web</b>  Gestión ambiental : Análisis de ciclo de vida. Principios y marco de referencia NTC - ISO 14040.
 
-    p.mb-4(data-aos="fade-right") Para aclarar algunos elementos claves sobre el tema, se invita a revisar la siguiente video clase sobre el tema análisis del ciclo de vida.
+    p.mb-4(data-aos="fade-right") Para aclarar algunos elementos claves sobre el tema, se invita a revisar la siguiente videoclase sobre el tema análisis del ciclo de vida.
 
     figure.mb-5(data-aos="flip-up")
       .video
