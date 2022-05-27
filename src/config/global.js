@@ -136,7 +136,8 @@ export default {
     {
       referencia:
         'Sánchez, O. (2007). Análisis de ciclo de vida y su aplicación a la producción de bioetanol. Universidad Eafit.',
-      link: '',
+      link:
+        'https://publicaciones.eafit.edu.co/index.php/revista-universidad-eafit/article/view/773/680',
     },
   ],
   glosario: [
